@@ -1,31 +1,21 @@
 [
 	SquotCypressMapper {
 		#package : MCPackage {
-			#name : 'StatisticsWorkbench-Diagrams'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'StatisticsWorkbench-Core'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
 			#name : 'StatisticsWorkbench-UI'
 		},
 		#path : FSAbsolutePath [
 			'UI'
 		]
 	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'LICENSE'
+		],
+		#encoding : 'TXT'
+	},
 	SquotCypressMapper {
 		#package : MCPackage {
-			#name : 'BaselineOfStatisticsWorkbench'
+			#name : 'StatisticsWorkbench-Diagrams'
 		},
 		#path : FSAbsolutePath [
 			'packages'
@@ -41,11 +31,71 @@
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
+			#name : 'BaselineOfStatisticsWorkbench'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'coverage-reporter.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.appveyor.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.gitignore'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.squot'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
 			#name : 'StatisticsWorkbench-Exceptions'
 		},
 		#path : FSAbsolutePath [
 			'packages'
 		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'README.md'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.travis.yml'
+		],
+		#encoding : 'TXT'
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
@@ -54,5 +104,19 @@
 		#path : FSAbsolutePath [
 			'packages'
 		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.coverage.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'ci.yml'
+		],
+		#encoding : 'TXT'
 	}
 ]
