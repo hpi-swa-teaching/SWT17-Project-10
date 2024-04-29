@@ -1,0 +1,56 @@
+[
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Diagrams'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'CSV'
+		},
+		#path : FSAbsolutePath [ ]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfStatisticsWorkbench'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Examples'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Exceptions'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Tests'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	}
+]
