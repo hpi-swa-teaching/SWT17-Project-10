@@ -12,7 +12,8 @@ visualize: aSWData with: aChart
 	aChart data: aSWData.
 		
 	(aChart needsCoordinateSystem)
-		ifTrue: [	self coordinateSystem diagram: self]
+		ifTrue: [self coordinateSystem diagram: self]
 		ifFalse: [self bounds: aChart bounds].
 
+	self createIMGExportBtn.
 	self update
