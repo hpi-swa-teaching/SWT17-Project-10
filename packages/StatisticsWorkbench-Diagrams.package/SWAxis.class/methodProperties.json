@@ -24,9 +24,9 @@
 		"vertices:color:borderWidth:borderColor:" : "ds 6/19/2020 18:44" },
 	"instance" : {
 		"add:" : "ds 6/19/2020 18:38",
-		"adjustHorizontalStepInterval" : "FM 8/6/2021 12:05",
+		"adjustHorizontalStepInterval" : "P 5/25/2024 14:01",
 		"adjustStepInterval" : "FM 8/6/2021 11:39",
-		"adjustVerticalStepInterval" : "FM 8/6/2021 11:30",
+		"adjustVerticalStepInterval" : "P 5/25/2024 14:03",
 		"areMarkersDrawable" : "jk 8/4/2020 18:17",
 		"areMarkersInsideAxisBoundaries" : "jk 8/6/2020 13:24",
 		"color:" : "ds 6/19/2020 18:38",
