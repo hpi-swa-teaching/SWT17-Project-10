@@ -6,6 +6,6 @@ exportIMG
 	fileName := UIManager default request: 'Enter file name' initialAnswer: ''.
 	filePath ifNotNil: [
 		fileName ifNotNil: [
-			PNGReadWriter putForm: (self imageForm) onFileNamed: (filePath , '\' , fileName , '.png').
+			PNGReadWriter putForm: (self imageForm) onFileNamed: (filePath , FileDirectory slash , fileName , '.png').
 		]
 	]
