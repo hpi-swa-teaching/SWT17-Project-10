@@ -1,11 +1,10 @@
 visualization
 exportIMG
 	
-	| filePath fileName |
-	filePath := (FileList2 modalFolderSelector) fullName.
-	fileName := UIManager default request: 'Enter file name' initialAnswer: ''.
-	filePath ifNotNil: [
-		fileName ifNotNil: [
-			PNGReadWriter putForm: (self imageForm) onFileNamed: (filePath , FileDirectory slash , fileName , '.png').
-		]
+	| folderPath fileName filePath |
+	folderPath := (FileList2 modalFolderSelector).
+	folderPath ifNotNil: [
+		fileName := UIManager default request: 'Enter file name' initialAnswer: ''.
+		filePath := folderPath fullName , FileDirectory slash , fileName , '.png'.
+		PNGReadWriter putForm: (self imageForm) onFileNamed: filePath.
 	]
