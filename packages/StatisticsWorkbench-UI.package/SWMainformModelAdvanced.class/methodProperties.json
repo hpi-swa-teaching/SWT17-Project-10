@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"open" : "s 5/29/2024 16:03" },
+	"instance" : {
+		"buildAddYButtonWith:" : "s 5/29/2024 16:20",
+		"buildColumnsInputFieldWith:" : "s 5/29/2024 16:21",
+		"buildExportPNGButtonWith:" : "s 5/29/2024 15:54",
+		"buildRemoveYButtonWith:" : "s 5/29/2024 16:20",
+		"buildVisualizeButtonWith:" : "s 5/29/2024 15:53",
+		"buildWith:" : "s 5/29/2024 19:56",
+		"buildXAxisInputFieldWith:" : "s 5/29/2024 16:20",
+		"buildYAxisSelectionWith:" : "s 5/29/2024 16:17",
+		"chart:setSelected:" : "s 5/29/2024 16:32",
+		"chartSelection" : "s 5/29/2024 16:26",
+		"chartSelection:" : "s 5/29/2024 16:26",
+		"chartsToVisualize" : "s 5/29/2024 16:32",
+		"defaultWindowExtent" : "s 5/29/2024 16:09",
+		"getCharts" : "s 5/29/2024 16:32",
+		"initialize" : "s 5/29/2024 16:06",
+		"isSelected:" : "s 5/29/2024 16:42",
+		"namedColumns" : "s 5/29/2024 16:26",
+		"namedColumns:" : "s 5/29/2024 16:26",
+		"xAxis" : "s 5/29/2024 16:26",
+		"xAxis:" : "s 5/29/2024 16:26",
+		"yAxis:setSelected:" : "s 5/29/2024 16:46",
+		"yAxisSelected" : "s 5/29/2024 16:46",
+		"yAxisSelected:" : "s 5/29/2024 16:46" } }

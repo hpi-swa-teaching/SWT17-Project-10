@@ -2,7 +2,8 @@ initialize-release
 initialize
 	
 	super initialize.
-	self delimiter: self defaultDelimiter;
-		escapeCharacter: self defaultEscapeCharacter;
+	self xAxis: self defaultXValue;
+		yAxis: self defaultYValue;
+		namedColumns: self defaultColumns;
 		chartSelection: self defaultDiagramsSelection;
 		parsedFile: ''
