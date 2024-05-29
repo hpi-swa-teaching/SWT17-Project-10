@@ -5,5 +5,5 @@ createLineMorph
 						color: self defaultColor;
 						borderWidth: self class defaultBorderWidth;
 						borderColor: self class defaultBorderColor;
-						"makeOpen;"
+						makeOpen;
 						yourself
