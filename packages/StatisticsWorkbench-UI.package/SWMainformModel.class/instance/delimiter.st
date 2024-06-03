@@ -1,4 +1,0 @@
-accessing
-delimiter
-
-	^ delimiter

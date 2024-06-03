@@ -22,14 +22,14 @@
 		"deleteCoordinateSystem" : "jk 8/4/2020 18:11",
 		"dimensionNames" : "jk 8/4/2020 17:03",
 		"disableBordersOnFocus" : "FM 5/10/2021 20:59",
-		"exportIMG" : "JB 5/27/2024 16:48",
+		"exportIMG" : "JB 5/30/2024 23:31",
 		"extent:" : "PAR 7/13/2021 12:44",
 		"getColor:for:" : "FM 8/2/2021 19:30",
 		"handlesMouseDown:" : "FM 5/10/2021 20:42",
 		"hasChart" : "jk 6/25/2020 22:26",
 		"hasCoordinateSystem" : "ds 6/19/2020 20:03",
 		"hasLegend" : "PAR 7/2/2021 12:23",
-		"initialize" : "FM 5/10/2021 20:59",
+		"initialize" : "JB 5/29/2024 14:59",
 		"legend" : "PAR 7/2/2021 12:23",
 		"legend:" : "PAR 7/2/2021 12:23",
 		"maximumDimension" : "FM 7/11/2021 16:47",
@@ -52,4 +52,4 @@
 		"visualize:with:" : "JB 5/24/2024 20:08",
 		"visualize:with:and:" : "ds 6/19/2020 20:05",
 		"visualizeAll:with:" : "PAR 5/24/2021 08:44",
-		"visualizeStacked:with:" : " Nils Urban 5/30/2024 12:37" } }
+		"visualizeStacked:with:" : "Nils Urban 5/30/2024 12:37" } }

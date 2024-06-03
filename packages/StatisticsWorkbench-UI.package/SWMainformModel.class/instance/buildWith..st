@@ -9,10 +9,13 @@ buildWith: aBuilder
 			self buildChartSelectionWith: aBuilder.
 			self buildCsvFileSelectionWith: aBuilder.
 			self buildVisualizeButtonWith: aBuilder.
-			self buildDelimiterInputFieldWith: aBuilder.
-			self buildEscapeCharacterInputFieldWith: aBuilder.
-			self buildXAxisSelectionButtonWith: aBuilder.
-			self buildYAxisSelectionButtonWith: aBuilder.
-			self buildCategoryColumnSelectionButtonWith: aBuilder.
+			self buildXAxisInputFieldWith: aBuilder.
+			self buildYAxisInputFieldWith: aBuilder.
+			self buildColumnsInputFieldWith: aBuilder.
+			self buildExportPNGButtonWith: aBuilder.
+			self buildAdvancedChartsButtonWith: aBuilder.
+			self buildHeadlineWith: aBuilder withAxis: 1.
+			self buildHeadlineWith: aBuilder withAxis: 2.
+			self buildHeadlineWith: aBuilder withAxis: 3.
 		};
 		yourself)
