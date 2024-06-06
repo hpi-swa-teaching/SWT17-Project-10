@@ -1,5 +1,5 @@
 building
-buildHeadlineWith: aBuilder withAxis: aNumber
+buildTextWith: aBuilder withAxis: aNumber
     | windowContent layoutPosition |
     
     windowContent := layoutPosition := nil.
