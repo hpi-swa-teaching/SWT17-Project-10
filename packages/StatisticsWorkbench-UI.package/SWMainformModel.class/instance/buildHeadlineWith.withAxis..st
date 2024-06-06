@@ -1,26 +1,25 @@
 building
 buildHeadlineWith: aBuilder withAxis: aNumber
-	
-	| windowContent  layoutPosition|
-	
-	windowContent := aNumber caseOf: {
-		[1] -> [#buildXAxisLabel].
-		[2] -> [#buildYAxisLabel].
-		[3] -> [#buildLabel]
-	} otherwise: [#buildXAxisLabel].
-	
-	layoutPosition := aNumber caseOf: {
-		[1] -> [0.3@0.15 corner: 1@0.25].	
-		[2] -> [0.3@0.33 corner: 1@0.25].
-		[3] -> [0.3@0.5 corner: 1@0.25].
-	} otherwise: [0.3@0.53 corner: 1@0.25].
-	
-	^ aBuilder pluggablePanelSpec new 
-		model: self;
-		children: windowContent;
-		frame: layoutPosition;
-		yourself
-	
-	
-	
-
+    | windowContent layoutPosition |
+    
+    windowContent := layoutPosition := nil.
+    
+    aNumber caseOf: {
+        [1] -> [windowContent := #buildXAxisLabel.
+                layoutPosition := 0.3@0.15 corner: 1@0.25].
+        [2] -> [windowContent := #buildYAxisLabel.
+                layoutPosition := 0.3@0.33 corner: 1@0.25].
+        [3] -> [windowContent := #buildColumnsLabel.
+                layoutPosition := 0.3@0.5 corner: 1@0.25].
+        [4] -> [windowContent := #buildThemeLabel.
+                layoutPosition := 0@0.62 corner: 1@0.65].
+    } otherwise: [
+        windowContent := #buildXAxisLabel.
+        layoutPosition := 0.3@0.53 corner: 1@0.15
+    ].
+    
+    ^ aBuilder pluggablePanelSpec new 
+        model: self;
+        children: windowContent;
+        frame: layoutPosition;
+        yourself

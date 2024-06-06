@@ -17,5 +17,7 @@ buildWith: aBuilder
 			self buildHeadlineWith: aBuilder withAxis: 1.
 			self buildHeadlineWith: aBuilder withAxis: 2.
 			self buildHeadlineWith: aBuilder withAxis: 3.
+			self buildHeadlineWith: aBuilder withAxis: 4.
+			self buildThemeSelectionWith: aBuilder.
 		};
 		yourself)

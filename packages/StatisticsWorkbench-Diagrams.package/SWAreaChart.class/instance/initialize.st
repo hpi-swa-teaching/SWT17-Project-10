@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self lineMorph: self createLineMorph;
-		lineColor: self defaultColor;
+		lineColor: self class defaultColor;
 		dataPoints: OrderedCollection new
