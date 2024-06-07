@@ -14,10 +14,8 @@ buildWith: aBuilder
 			self buildColumnsInputFieldWith: aBuilder.
 			self buildExportPNGButtonWith: aBuilder.
 			self buildAdvancedChartsButtonWith: aBuilder.
-			self buildTextWith: aBuilder withAxis: 1.
-			self buildTextWith: aBuilder withAxis: 2.
-			self buildTextWith: aBuilder withAxis: 3.
-			self buildTextWith: aBuilder withAxis: 4.
-			self buildThemeSelectionWith: aBuilder.
+			self buildHeadlineWith: aBuilder withAxis: 1.
+			self buildHeadlineWith: aBuilder withAxis: 2.
+			self buildHeadlineWith: aBuilder withAxis: 3.
 		};
 		yourself)
