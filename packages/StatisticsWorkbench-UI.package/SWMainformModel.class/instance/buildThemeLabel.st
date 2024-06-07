@@ -1,10 +1,9 @@
 building
-buildYAxisLabel
+buildThemeLabel
 
 	^ {TextMorph new
-	  contents: (Text string: 'Enter your y axis values' attribute: TextEmphasis bold);
+        contents: (Text string: 'Select your Theme' attribute: TextEmphasis bold);
 	  beAllFont: (StrikeFont familyName: #BitstreamVeraSans pointSize: 11);
         color: Color black;
         lock.}
-
 	
