@@ -2,6 +2,8 @@ building
 buildXAxisLabel
 
 	^ {TextMorph new
-        contents: 'Enter your x axis values:' asText;
-        color: Color gray.}
+      	  contents: (Text string: 'Enter your x axis values' attribute: TextEmphasis bold);
+	  	beAllFont: (StrikeFont familyName: #BitstreamVeraSans pointSize: 11);
+        	color: Color black;
+        	lock.}
 	
