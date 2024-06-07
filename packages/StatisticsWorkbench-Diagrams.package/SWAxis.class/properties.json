@@ -15,7 +15,8 @@
 		"rasterVisibility",
 		"stepInterval",
 		"textColor",
-		"textVisibility" ],
+		"textVisibility",
+		"diagram" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

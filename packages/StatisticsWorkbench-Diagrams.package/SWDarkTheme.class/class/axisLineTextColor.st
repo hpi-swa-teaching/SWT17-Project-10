@@ -1,4 +1,4 @@
 defaults
 axisLineTextColor
 
-	^ Color black
+	^ Color white

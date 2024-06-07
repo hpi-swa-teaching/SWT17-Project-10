@@ -1,8 +1,12 @@
 visualization
-visualize: aSWData with: aChart 
-	
+visualize: aSWData with: aChart
+
+	| coordinateSystem |	
 	(aChart needsCoordinateSystem and: [self hasCoordinateSystem not])
-		ifTrue: [self add: aChart requiredCoordinateSystem create].
+		ifTrue: [
+			coordinateSystem := aChart requiredCoordinateSystem create.
+			coordinateSystem diagram: self.
+			self add: coordinateSystem].
 
 	(aChart needsLegend and: [self hasLegend not])
 		ifTrue: [self createLegend].
