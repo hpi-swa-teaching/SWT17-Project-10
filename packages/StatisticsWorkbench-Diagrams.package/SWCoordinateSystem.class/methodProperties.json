@@ -2,12 +2,12 @@
 	"class" : {
 		"create" : "FM 7/11/2021 13:41",
 		"defaultBounds" : "ds 6/19/2020 20:00",
-		"defaultBoundsThreshold" : "ds 6/19/2020 20:00",
+		"defaultBoundsThreshold" : "JB 6/9/2024 00:24",
 		"defaultColor" : "ds 6/19/2020 20:00",
 		"defaultLength" : "ds 6/19/2020 20:00",
 		"defaultMax" : "ds 6/19/2020 20:00",
 		"defaultMin" : "ds 6/19/2020 20:00",
-		"defaultStartPoint" : "ds 6/19/2020 20:00",
+		"defaultStartPoint" : "JB 6/9/2024 00:22",
 		"defaultStep" : "ds 6/19/2020 20:00" },
 	"instance" : {
 		"addTo:" : "ds 6/19/2020 19:54",

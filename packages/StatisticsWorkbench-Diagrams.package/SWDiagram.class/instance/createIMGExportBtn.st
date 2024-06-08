@@ -15,7 +15,7 @@ createIMGExportBtn
 		borderColor: Color black.
 	icon := self loadExportIconFor: button.
 	button addMorph: icon.
-	icon position: button position + (button extent - icon extent) // 2.
+	icon position: button position + (button extent - icon extent // 2).
 	self buttonHighlighting: button.
 
 	self addMorph: button.
