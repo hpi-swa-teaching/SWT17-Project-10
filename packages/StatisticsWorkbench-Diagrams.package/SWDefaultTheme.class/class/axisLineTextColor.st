@@ -1,4 +1,0 @@
-defaults
-axisLineTextColor
-
-	^ Color black

@@ -1,4 +1,0 @@
-defaults
-coordinateSystemColor
-
-	^ Color white

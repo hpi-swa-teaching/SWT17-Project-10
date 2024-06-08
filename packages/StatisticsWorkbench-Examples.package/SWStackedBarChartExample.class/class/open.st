@@ -1,16 +1,11 @@
 as yet unclassified
 open
 
-	| data1 data2 data3 dataCollection|
-	
-	data1 := SWDataUnlabeled fromDataPointCollections: #(#(1 3) #(2 2) #(3 3) #(4 2) #(5 3)).
-	data2 := SWDataUnlabeled fromDataPointCollections: #(#(1 4) #(2 1) #(3 2) #(4 4) #(5 1)).
-	data3 := SWDataUnlabeled fromDataPointCollections: #(#(1 1) #(2 2) #(3 1) #(4 2) #(5 1)).
-	
+	| dataCollection|
 	dataCollection := OrderedCollection new.
 	dataCollection
-		add: data1;
-		add: data2;
-		add: data3.
+		add: self data1;
+		add: self data2;
+		add: self data3.
 		
 	^ (SWDiagram new visualizeStacked: dataCollection with: SWBarChart) openInWindow

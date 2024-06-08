@@ -1,23 +1,26 @@
 visualization
-visualize: aSWData with: aChart
+visualize: aSWData with: aSWChart
 
-	| coordinateSystem |	
-	(aChart needsCoordinateSystem and: [self hasCoordinateSystem not])
+	| coordinateSystem chart |
+	chart := aSWChart create.
+	(chart needsCoordinateSystem and: [self hasCoordinateSystem not])
 		ifTrue: [
-			coordinateSystem := aChart requiredCoordinateSystem create.
+			coordinateSystem := chart requiredCoordinateSystem create.
 			coordinateSystem diagram: self.
 			self add: coordinateSystem].
 
-	(aChart needsLegend and: [self hasLegend not])
+	(chart needsLegend and: [self hasLegend not])
 		ifTrue: [self createLegend].
 	
-	self add: aChart.
-	aChart diagram: self.
-	aChart data: aSWData.
+	self add: chart.
+	chart diagram: self.
+	(chart isKindOf: SWSpiderChart)
+		ifTrue: [chart data: (self transformToSpiderData: aSWData)]
+		ifFalse: [chart data: aSWData].
 		
-	(aChart needsCoordinateSystem)
+	(chart needsCoordinateSystem)
 		ifTrue: [self coordinateSystem diagram: self]
-		ifFalse: [self bounds: aChart bounds].
+		ifFalse: [self bounds: chart bounds].
 
 	self createIMGExportBtn.
 	self update

@@ -1,4 +1,10 @@
 instance creation
 open
+	
+	| dataCollection |
+	dataCollection := OrderedCollection new.
+	dataCollection
+		add: self data1;
+		add: self data2.
 
-	^ (SWDiagram new visualize: self data1 and: self data2 with: SWLineChart create and: SWLineChart create) openInWindow
+	^ (SWDiagram new visualizeAll: dataCollection with: SWLineChart) openInWindow

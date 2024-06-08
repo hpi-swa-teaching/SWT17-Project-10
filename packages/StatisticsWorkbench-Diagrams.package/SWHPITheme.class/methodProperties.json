@@ -2,22 +2,16 @@
 	"class" : {
 		"axisBorderColor" : "ds 6/19/2020 19:47",
 		"axisColor" : "ds 6/19/2020 19:47",
-		"axisLineStrokeColor" : "ds 6/19/2020 19:47",
-		"axisLineTextColor" : "ds 6/19/2020 19:47",
 		"axisTextColor" : "ds 6/19/2020 19:47",
 		"backgroundColor" : "ds 6/19/2020 19:48",
 		"barColors" : "FM 7/28/2021 12:06",
-		"barGraphColor" : "ds 6/19/2020 19:49",
 		"barLabelColor" : "ds 6/19/2020 19:53",
-		"coordinateSystemColor" : "ds 6/19/2020 19:49",
 		"dataPointColors" : "FM 7/28/2021 12:07",
-		"lineChartBorderColor" : "ds 6/19/2020 19:53",
 		"lineChartColors" : "FM 7/28/2021 12:08",
 		"pieChartColors" : "FM 7/28/2021 12:09",
 		"rasterColor" : "ds 6/19/2020 19:50",
 		"spiderAxisColor" : "FM 7/11/2021 17:18",
 		"spiderChartColors" : "FM 8/2/2021 19:49",
-		"spiderChartGraphBorderColor" : "FM 8/2/2021 19:37",
-		"windowColor" : "ds 6/19/2020 19:50" },
+		"spiderChartGraphBorderColor" : "FM 8/2/2021 19:37" },
 	"instance" : {
 		 } }

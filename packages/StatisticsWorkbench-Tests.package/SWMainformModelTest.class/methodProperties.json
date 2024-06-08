@@ -13,7 +13,7 @@
 		"testChartSelectionLength" : "PAR 8/6/2021 12:54",
 		"testChartsToVisualize" : "PAR 8/6/2021 12:54",
 		"testDefaultChartSelection" : "PAR 8/6/2021 12:55",
-		"testIsNewFileChosen" : "PAR 8/6/2021 12:55",
-		"testIsNewFileChosenReturnsFalse" : "PAR 8/6/2021 12:55",
+		"testIsNewFileChosen" : "JB 6/8/2024 19:41",
+		"testIsNewFileChosenReturnsFalse" : "JB 6/8/2024 19:42",
 		"testObserverNotification" : "PAR 8/6/2021 12:55",
 		"update:" : "PAR 5/12/2021 19:18" } }

@@ -5,4 +5,4 @@ onVisualizeButtonClicked
 		ifTrue: [self inform: 'Error: Please select some charts to visualize.']
 		ifFalse: [
 			self chartsToVisualize
-				do: [:each | (SWDiagram new visualize: (self processInputData) with: each create) openInWindow].].
+				do: [:each | (SWDiagram new visualize: (self processInputDataFor: each) with: each) openInWindow].]
