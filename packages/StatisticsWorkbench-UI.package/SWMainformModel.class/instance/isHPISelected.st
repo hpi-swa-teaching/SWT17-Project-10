@@ -1,4 +1,4 @@
 theme-selection
 isHPISelected
 
-        ^selectedTheme = 'HPI'
+        ^ selectedTheme = SWHPITheme

@@ -1,4 +1,4 @@
 theme-selection
 isDarkSelected
 
-        ^selectedTheme = 'Dark'
+        ^ selectedTheme = SWDarkTheme

@@ -1,45 +1,7 @@
 [
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'LICENSE'
-		],
-		#encoding : 'TXT'
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'StatisticsWorkbench-Diagrams'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'StatisticsWorkbench-Examples'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'BaselineOfStatisticsWorkbench'
-		},
-		#path : FSAbsolutePath [
-			'packages'
-		]
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.github',
-			'workflows',
-			'coverage-reporter.yml'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.appveyor.yml'
+			'.smalltalk.ston'
 		],
 		#encoding : 'TXT'
 	},
@@ -53,19 +15,21 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.gitignore'
+			'.travis.yml'
 		],
 		#encoding : 'TXT'
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.squot'
+			'.github',
+			'workflows',
+			'coverage-reporter.yml'
 		],
 		#encoding : 'TXT'
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
-			#name : 'StatisticsWorkbench-Exceptions'
+			#name : 'StatisticsWorkbench-Examples'
 		},
 		#path : FSAbsolutePath [
 			'packages'
@@ -73,25 +37,21 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.smalltalk.ston'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'README.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.travis.yml'
+			'LICENSE'
 		],
 		#encoding : 'TXT'
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
-			#name : 'StatisticsWorkbench-UI'
+			#name : 'BaselineOfStatisticsWorkbench'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Exceptions'
 		},
 		#path : FSAbsolutePath [
 			'packages'
@@ -107,7 +67,7 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.coverage.ston'
+			'.appveyor.yml'
 		],
 		#encoding : 'TXT'
 	},
@@ -118,5 +78,51 @@
 			'ci.yml'
 		],
 		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.gitignore'
+		],
+		#encoding : 'TXT'
+	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'export_icon.png'
+		],
+		#encoding : Class [ #PNGReadWriter ]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'README.md'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.squot'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-Diagrams'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.coverage.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'StatisticsWorkbench-UI'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
 	}
 ]
