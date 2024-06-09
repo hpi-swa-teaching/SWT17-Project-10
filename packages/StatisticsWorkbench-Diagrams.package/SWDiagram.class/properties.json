@@ -10,7 +10,8 @@
 		"coordinateSystem",
 		"legend",
 		"colorTheme",
-		"exportButton" ],
+		"exportButton",
+		"logo" ],
 	"name" : "SWDiagram",
 	"pools" : [
 		 ],

@@ -3,6 +3,7 @@ extent: aPoint
 
 	super extent: aPoint.
 	self resizeCharts.
+	self updateHPILogo.
 	(self hasLegend)
 		ifTrue:[self updateLegend.self updateLegend].
 	(self hasCoordinateSystem)

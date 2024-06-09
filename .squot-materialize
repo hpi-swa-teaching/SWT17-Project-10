@@ -19,6 +19,12 @@
 		],
 		#encoding : 'TXT'
 	},
+	SquotImageMapper {
+		#path : FSAbsolutePath [
+			'hpi_logo.png'
+		],
+		#encoding : Class [ #PNGReadWriter ]
+	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'.github',
@@ -89,7 +95,7 @@
 		#path : FSAbsolutePath [
 			'export_icon.png'
 		],
-		#encoding : Class [ #PNGReadWriter ]
+		#encoding : @11
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
