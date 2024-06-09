@@ -1,4 +1,4 @@
 defaults
-axisTextColor
+spiderChartAxisTextColor
 
 	^ Color black

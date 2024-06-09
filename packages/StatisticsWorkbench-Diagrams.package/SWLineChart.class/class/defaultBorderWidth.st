@@ -1,4 +1,4 @@
 defaults
 defaultBorderWidth
 
-	^ 2
+	^ 2.5

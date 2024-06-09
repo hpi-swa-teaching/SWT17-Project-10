@@ -18,4 +18,6 @@ createIMGExportBtn
 	icon position: button position + (button extent - icon extent // 2).
 	self buttonHighlighting: button.
 
-	self addMorph: button.
+	self 
+		exportButton: button;
+		addMorph: button.

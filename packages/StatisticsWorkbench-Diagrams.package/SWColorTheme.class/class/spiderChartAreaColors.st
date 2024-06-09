@@ -1,4 +1,4 @@
 defaults
-axisLineTextColor
+spiderChartAreaColors
 
 	self subclassResponsibility

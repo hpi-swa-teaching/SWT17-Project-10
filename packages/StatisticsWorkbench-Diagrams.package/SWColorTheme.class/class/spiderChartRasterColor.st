@@ -1,4 +1,4 @@
 defaults
-windowColor
+spiderChartRasterColor
 
 	self subclassResponsibility

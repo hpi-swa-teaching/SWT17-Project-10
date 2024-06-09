@@ -5,7 +5,7 @@
 		"defaultGraphBorderWidth" : "FM 8/2/2021 19:33",
 		"defaultGraphColor" : "FM 8/2/2021 19:19" },
 	"instance" : {
-		"applyTheme:" : "FM 8/2/2021 19:37",
+		"applyTheme:" : "JB 6/9/2024 19:30",
 		"createVertices" : "FM 7/11/2021 16:06",
 		"dataColor" : "FM 8/2/2021 19:17",
 		"deleteGraph" : "FM 8/2/2021 19:20",
@@ -21,6 +21,6 @@
 		"needsCoordinateSystem" : "FM 7/11/2021 14:31",
 		"removeAll" : "FM 8/2/2021 19:50",
 		"requiredCoordinateSystem" : "FM 7/11/2021 14:27",
+		"requiresXValues" : "JB 6/9/2024 20:34",
 		"update" : "FM 8/2/2021 19:24",
-		"updateColor" : "FM 8/2/2021 19:23",
-		"xValuesRequired" : "JB 6/8/2024 15:51" } }
+		"updateColor" : "FM 8/2/2021 19:23" } }

@@ -1,4 +1,4 @@
 defaults
-lineChartBorderColor
-
+spiderChartAxisBorderColor
+	
 	self subclassResponsibility

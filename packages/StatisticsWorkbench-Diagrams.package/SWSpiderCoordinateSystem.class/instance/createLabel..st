@@ -5,7 +5,7 @@ createLabel: aString
 
 	textMorph := TextMorph new contents: aString;
 					wrapFlag: true;
-					color: self colorTheme axisTextColor;
+					color: self colorTheme spiderChartAxisTextColor;
 					yourself.
 	self spiderNet addMorph: textMorph.
 	

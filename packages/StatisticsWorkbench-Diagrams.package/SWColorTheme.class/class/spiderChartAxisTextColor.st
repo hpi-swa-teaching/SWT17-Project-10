@@ -1,0 +1,4 @@
+defaults
+spiderChartAxisTextColor
+
+	self SubclassResponsibility

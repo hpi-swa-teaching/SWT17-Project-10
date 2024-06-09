@@ -1,4 +1,4 @@
 defaults
-axisTextColor
+spiderChartRasterColor
 
 	^ Color white

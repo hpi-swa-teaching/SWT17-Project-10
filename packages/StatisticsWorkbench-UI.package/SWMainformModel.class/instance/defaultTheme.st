@@ -1,4 +1,4 @@
 default-values
 defaultTheme
 
-	^ 'Light'
+	^ SWDefaultTheme

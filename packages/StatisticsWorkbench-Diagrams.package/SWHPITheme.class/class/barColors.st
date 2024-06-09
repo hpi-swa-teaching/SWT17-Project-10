@@ -2,11 +2,14 @@ defaults
 barColors
 
 	^ {
-		Color r: 246/255 g:168/255 b: 0.
-		Color r: 86/255 g: 180/255 b: 233/255.
-		Color r: 0 g: 158/255 b: 115/255.
-		Color r: 240/255 g: 228/255 b: 66/255.
-		Color r: 0 g: 114/255 b: 178/255.
-		Color r: 213/255 g: 94/255 b: 0.
-		Color r: 204/255 g: 121/255 b: 167/255
+		TranslucentColor r: 221/255 g: 100/255 b: 12/255 alpha: 0.9.
+		TranslucentColor r: 176/255 g: 6/255 b: 58/255 alpha: 0.9.
+		TranslucentColor r: 246/255 g: 168/255 b: 0/255 alpha: 0.9.
+		TranslucentColor r: 0/255 g: 122/255 b: 158/255 alpha: 0.9.
+		TranslucentColor r: 133/255 g: 60/255 b: 7/255 alpha: 0.9.
+		TranslucentColor r: 255/255 g: 87/255 b: 34/255 alpha: 0.9.
+		TranslucentColor r: 103/255 g: 58/255 b: 183/255 alpha: 0.9.
+		TranslucentColor r: 121/255 g: 85/255 b: 72/255 alpha: 0.9.
+		TranslucentColor r: 0/255 g: 73/255 b: 95/255 alpha: 0.9.
+		TranslucentColor r: 255/255 g: 235/255 b: 59/255 alpha: 0.9.
 	}

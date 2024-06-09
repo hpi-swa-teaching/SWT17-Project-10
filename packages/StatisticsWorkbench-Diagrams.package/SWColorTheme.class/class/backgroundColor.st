@@ -1,4 +1,4 @@
 defaults
 backgroundColor
 	 
-	^ Color white.
+	self subclassResponsibility

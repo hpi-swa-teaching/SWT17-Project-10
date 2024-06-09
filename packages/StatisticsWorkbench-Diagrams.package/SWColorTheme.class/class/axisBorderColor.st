@@ -1,4 +1,0 @@
-defaults
-axisBorderColor
-	
-	self subclassResponsibility

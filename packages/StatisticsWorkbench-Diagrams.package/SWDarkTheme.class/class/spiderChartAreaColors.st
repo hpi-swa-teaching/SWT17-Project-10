@@ -1,5 +1,5 @@
 defaults
-spiderChartColors
+spiderChartAreaColors
 
 	^ {
 		TranslucentColor red alpha: 0.5.
