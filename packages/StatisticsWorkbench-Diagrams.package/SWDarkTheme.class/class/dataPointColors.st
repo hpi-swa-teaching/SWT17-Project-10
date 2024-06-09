@@ -2,11 +2,15 @@ defaults
 dataPointColors
 
 	^ {
-		Color r: 0 g: 158/255 b: 115/255.
-		Color r: 86/255 g: 180/255 b: 233/255.
-		Color r: 0 g: 158/255 b: 115/255.
-		Color r: 240/255 g: 228/255 b: 66/255.
-		Color r: 0 g: 114/255 b: 178/255.
-		Color r: 213/255 g: 94/255 b: 0.
-		Color r: 204/255 g: 121/255 b: 167/255
+		TranslucentColor r: 255/255 g: 220/255 b: 126/255 alpha: 1.
+		TranslucentColor r: 246/255 g: 169/255 b: 113/255 alpha: 1.
+		TranslucentColor r: 242/255 g: 123/255 b: 110/255 alpha: 1.
+		TranslucentColor r: 216/255 g: 129/255 b: 182/255 alpha: 1.
+		TranslucentColor r: 129/255 g: 106/255 b: 174/255 alpha: 1.
+		TranslucentColor r: 94/255 g: 138/255 b: 201/255 alpha: 1.
+		TranslucentColor r: 87/255 g: 196/255 b: 199/255 alpha: 1.
+		TranslucentColor r: 101/255 g: 194/255 b: 149/255 alpha: 1.
+		TranslucentColor r: 172/255 g: 213/255 b: 137/255 alpha: 1.
+		TranslucentColor r: 215/255 g: 227/255 b: 125/255 alpha: 1.
+		TranslucentColor r: 179/255 g: 18/255 b: 114/255 alpha: 1
 	}
