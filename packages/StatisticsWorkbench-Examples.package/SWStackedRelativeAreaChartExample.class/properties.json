@@ -1,14 +1,14 @@
 {
-	"category" : "StatisticsWorkbench-Diagrams",
+	"category" : "StatisticsWorkbench-Examples",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dataPointSuffix" ],
-	"name" : "SWAreaChart",
+		 ],
+	"name" : "SWStackedRelativeAreaChartExample",
 	"pools" : [
 		 ],
-	"super" : "SWLineChart",
+	"super" : "SWExample",
 	"type" : "normal" }

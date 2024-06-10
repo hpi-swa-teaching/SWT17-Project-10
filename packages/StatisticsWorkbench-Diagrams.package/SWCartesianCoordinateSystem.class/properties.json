@@ -9,7 +9,8 @@
 		"centeredAxes",
 		"boundsThreshold",
 		"xAxis",
-		"yAxis" ],
+		"yAxis",
+		"percentageBased" ],
 	"name" : "SWCartesianCoordinateSystem",
 	"pools" : [
 		 ],

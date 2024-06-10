@@ -12,7 +12,7 @@ createMarkerAtIndex: aIndex
 	^ SWAxisMarker
 			create: (self newMarkerPosition: aIndex)
 			orientation: markerOrientation
-			caption: shortenedNumber
+			caption: (shortenedNumber, markerSuffix)
 			textColor: self textColor
 			strokeColor: self borderColor
 			raster: (self rasterVisibility and: [self hasRasterLength and: [aIndex ~= 0]])

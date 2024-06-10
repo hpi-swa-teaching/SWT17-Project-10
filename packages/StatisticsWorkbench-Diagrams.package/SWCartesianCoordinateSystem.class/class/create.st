@@ -1,7 +1,8 @@
 instance creation
 create
+	|coordinateSystem|
 	
-	^ SWCartesianCoordinateSystem createAt: self defaultStartPoint 
+	coordinateSystem := SWCartesianCoordinateSystem createAt: self defaultStartPoint 
 									xMin: self defaultMin 
 									xMax: self defaultMax 
 									xStep: self defaultStep 
@@ -10,4 +11,7 @@ create
 									yMax: self defaultMax 
 									yStep: self defaultStep 
 									yLength: self defaultLength 
-									boundsThreshold: self defaultBoundsThreshold
+									boundsThreshold: self defaultBoundsThreshold.
+	coordinateSystem percentageBased: false.
+	
+	^ coordinateSystem

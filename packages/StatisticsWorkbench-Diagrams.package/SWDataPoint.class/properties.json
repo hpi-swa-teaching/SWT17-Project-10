@@ -7,7 +7,8 @@
 	"commentStamp" : "JB 6/21/2018 10:11",
 	"instvars" : [
 		"renderedPoint",
-		"infoPopup" ],
+		"infoPopup",
+		"suffix" ],
 	"name" : "SWDataPoint",
 	"pools" : [
 		 ],
