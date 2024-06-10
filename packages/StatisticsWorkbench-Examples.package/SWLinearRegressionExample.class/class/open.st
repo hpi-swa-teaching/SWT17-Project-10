@@ -1,11 +1,9 @@
 instance creation
 open
 
-	| graph scatterPlot|
+	| graph |
 		
-	graph := SWDiagram new visualize: self data with: SWScatterPlot create.
-	
-	scatterPlot := graph charts first.
-	SWLinearRegression newFromScatterPlot: scatterPlot plotOn: graph.
+	graph := SWDiagram new visualize: self data with: SWScatterPlot.
+	SWLinearRegression newFromScatterPlot: (graph charts) first plotOn: graph.
 
 	^ graph openInWindow

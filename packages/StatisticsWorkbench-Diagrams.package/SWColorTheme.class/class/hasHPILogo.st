@@ -1,0 +1,4 @@
+defaults
+hasHPILogo
+
+	self subclassResponsibility

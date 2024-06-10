@@ -1,7 +1,7 @@
 as yet unclassified
 testIsNewFileChosen
 
-	|fileStream|
+	| fileStream |
 
 	fileStream := self createFileStreamNamed: 'File1.txt'.
 	self	mainformModel stream: fileStream;

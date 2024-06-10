@@ -1,11 +1,10 @@
 instance creation
 open
-
-	| data data2 |
 	
-	data := SWDataUnlabeled fromXValues: {-2 . -10 . 8 . -20 . -16 . 5} versusYValues: {0 . 10 . -3 . 3 . 4 . -17}.
-	data dataColor: Color bubblegum.
-	data2 := SWDataUnlabeled fromXValues: {13 . 14 . -9 . 20 . -15 . 2} versusYValues: {0 . 10 . -3 . 3 . 4 . -17}.
-	data2 dataColor: Color orange.
+	| dataCollection |
+	dataCollection := OrderedCollection new.
+	dataCollection
+		add: self data1;
+		add: self data2.
 	
-	^ (SWDiagram new visualize: data and: data2 with: SWLineChart create and: SWLineChart create) openInWindow
+	^ (SWDiagram new visualizeAll: dataCollection with: SWLineChart) openInWindow

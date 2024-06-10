@@ -3,8 +3,8 @@ open
 
 	| container graph1 graph2 |
 	
-	graph1 := SWDiagram new visualize: self data with: SWBarChart create.
-	graph2 := SWDiagram new visualize: self data with: SWLineChart create.
+	graph1 := SWDiagram new visualize: self data with: SWBarChart.
+	graph2 := SWDiagram new visualize: self data with: SWLineChart.
 	
 	container := (Morph newBounds: self containerBounds) openInWorld.
 	

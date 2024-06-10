@@ -3,8 +3,9 @@ setUp
 
 	super setUp.
 	
-	self data: SWDataStub createSeededRandom;
-		lineChart: SWLineChart new;
-		diagram: (SWDiagram new visualize: self data with: self lineChart).
+	self
+		data: SWDataStub createSeededRandom;
+		diagram: (SWDiagram new visualize: self data with: SWLineChart);
+		lineChart: (self diagram charts) first.
 		
 	self diagram centerAxes

@@ -1,4 +1,0 @@
-defaults
-lineChartBorderColor
-
-	self subclassResponsibility

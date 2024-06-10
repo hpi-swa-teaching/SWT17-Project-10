@@ -21,7 +21,10 @@ createPieSliceFrom: aSWVector at: aPosition colored: aColor
 			center: self center;
 			centerPoint: self center.
 			
-	newPieSlice slice color: aColor.
+	newPieSlice slice
+		color: aColor;
+		borderColor: self diagram colorTheme class backgroundColor;
+		borderWidth: 2.
 	
 	edgePoints
 			add: startPoint.

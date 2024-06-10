@@ -1,0 +1,4 @@
+defaults
+spiderChartRasterColor
+
+	self subclassResponsibility

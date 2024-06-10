@@ -1,4 +1,0 @@
-defaults
-windowColor
-
-	self subclassResponsibility

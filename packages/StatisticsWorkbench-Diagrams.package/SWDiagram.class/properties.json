@@ -9,7 +9,9 @@
 		"charts",
 		"coordinateSystem",
 		"legend",
-		"colorTheme" ],
+		"colorTheme",
+		"exportButton",
+		"logo" ],
 	"name" : "SWDiagram",
 	"pools" : [
 		 ],

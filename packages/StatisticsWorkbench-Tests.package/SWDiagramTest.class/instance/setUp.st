@@ -3,9 +3,9 @@ setUp
 
 	super setUp.
 	self data: SWDataStub createSeeded;
-	     	diagramLineChart: (SWDiagram new visualize: self data with: SWLineChart create);
-	 	diagramBarChart: (SWDiagram new visualize: self data with: SWBarChart create);
+	     	diagramLineChart: (SWDiagram new visualize: self data with: SWLineChart);
+	 	diagramBarChart: (SWDiagram new visualize: self data with: SWBarChart);
 		diagramEmpty: SWDiagram new;
-		diagramLineScatter: (SWDiagram new visualize: self data with: SWLineChart new and: SWScatterPlot new);
-		diagramPieChart: (SWDiagram new visualize: self data with: SWPieChart create);
-		diagramScatterPlot: (SWDiagram new visualize: self data with: SWScatterPlot new)
+		diagramLineScatter: (SWDiagram new visualize: self data with: SWLineChart and: SWScatterPlot);
+		diagramPieChart: (SWDiagram new visualize: self data with: SWPieChart);
+		diagramScatterPlot: (SWDiagram new visualize: self data with: SWScatterPlot)

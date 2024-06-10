@@ -1,4 +1,4 @@
 defaults
 axisColor
 
-	^ Color r: 153/255 g: 153/255 b:153/255
+	^ Color r: 120/255 g: 120/255 b:120/255

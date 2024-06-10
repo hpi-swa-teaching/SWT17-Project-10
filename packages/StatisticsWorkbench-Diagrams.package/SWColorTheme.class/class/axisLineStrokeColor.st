@@ -1,4 +1,0 @@
-defaults
-axisLineStrokeColor
-
-	self subclassResponsibility

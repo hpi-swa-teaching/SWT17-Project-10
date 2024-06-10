@@ -1,0 +1,4 @@
+defaults
+spiderChartAreaColors
+
+	self subclassResponsibility

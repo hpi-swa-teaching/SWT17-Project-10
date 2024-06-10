@@ -1,4 +1,0 @@
-defaults
-rasterColor
-
-	self subclassResponsibility

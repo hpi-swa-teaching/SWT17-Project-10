@@ -1,4 +1,0 @@
-defaults
-axisTextColor
-
-	^ Color white

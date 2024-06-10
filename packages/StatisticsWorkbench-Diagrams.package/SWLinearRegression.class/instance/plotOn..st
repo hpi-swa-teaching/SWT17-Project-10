@@ -1,4 +1,4 @@
 output
 plotOn: aSWDiagram
 
-	aSWDiagram visualize: self data with: SWLineChart create
+	aSWDiagram visualize: self data with: SWLineChart

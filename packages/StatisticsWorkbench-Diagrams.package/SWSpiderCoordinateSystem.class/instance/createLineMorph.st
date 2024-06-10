@@ -2,8 +2,8 @@ instance creation
 createLineMorph
 	
 	^ PolygonMorph new
-		color: self colorTheme rasterColor;
+		color: self colorTheme spiderChartRasterColor;
 		borderWidth: self class defaultLineBorderWith;
-		borderColor: self colorTheme axisBorderColor;
+		borderColor: self colorTheme spiderChartAxisBorderColor;
 		makeOpen;
 		yourself

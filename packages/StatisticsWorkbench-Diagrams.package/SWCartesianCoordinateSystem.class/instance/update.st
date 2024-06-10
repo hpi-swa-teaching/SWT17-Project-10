@@ -1,7 +1,10 @@
 updating
 update
 
-	self updateRanges.
-	self updateLegends.
-	self positionAxes.
-	self updateRasterSize
+	self
+		updateRanges;
+		updateLegends;
+		positionAxes;
+		updateRasterSize;
+		applyTheme: self diagram colorTheme
+	

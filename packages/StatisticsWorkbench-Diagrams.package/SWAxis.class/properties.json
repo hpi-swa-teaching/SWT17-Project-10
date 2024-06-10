@@ -16,7 +16,8 @@
 		"stepInterval",
 		"textColor",
 		"textVisibility",
-		"markerSuffix" ],
+		"markerSuffix",
+		"diagram" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

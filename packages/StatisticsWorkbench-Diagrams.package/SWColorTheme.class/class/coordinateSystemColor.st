@@ -1,4 +1,0 @@
-defaults
-coordinateSystemColor
-
-	self subclassResponsibility

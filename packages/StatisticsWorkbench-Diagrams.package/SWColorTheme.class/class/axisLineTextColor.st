@@ -1,4 +1,0 @@
-defaults
-axisLineTextColor
-
-	self subclassResponsibility

@@ -3,6 +3,7 @@ setUp
 
 	super setUp.
 
-	self	data: SWDataStub createSeededMultiDimensional;
-		spiderChart: SWSpiderChart new;
-		diagram: (SWDiagram new visualize: self data with: self spiderChart)
+	self	
+		data: SWDataStub createSeededMultiDimensional;
+		diagram: (SWDiagram new visualize: self data with: SWSpiderChart);
+		spiderChart: (self diagram charts) first

@@ -1,4 +1,0 @@
-defaults
-axisLineStrokeColor
-
-	^ Color black

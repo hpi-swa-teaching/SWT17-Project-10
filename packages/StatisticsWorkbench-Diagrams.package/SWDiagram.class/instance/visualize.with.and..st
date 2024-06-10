@@ -1,5 +1,5 @@
 visualization
-visualize: data with: aChart and: anotherChart
+visualize: aSWData with: aSWChart and: anotherSWChart
 	
-	self visualize: data with: aChart.
-	self visualize: data with: anotherChart
+	self visualize: aSWData with: aSWChart.
+	self visualize: aSWData with: anotherSWChart

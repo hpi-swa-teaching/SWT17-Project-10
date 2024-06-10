@@ -1,4 +1,0 @@
-defaults
-barGraphColor
-
-	self subclassResponsibility

@@ -1,7 +1,4 @@
 visualization
-visualizeAll: aSWDataCollection with: aSWChartSubclass
+visualizeAll: aSWDataCollection with: aSWChart
 
-	|chart|
-	aSWDataCollection do: [:swData | 
-		chart := aSWChartSubclass create.
-		self visualize: swData with: chart].
+	aSWDataCollection do: [:swData | self visualize: swData with: aSWChart].

@@ -4,10 +4,9 @@ createSeededMultiDimensional
 
 	| data |
 	
-	data := SWDataLabeled new
-		add: {100 . 80 . 90. 35 . 70};
+	data := SWDataLabeled fromYValues: {100 . 80 . 90. 35 . 70}.
+	data
 		dataName: 'Spider-Man';
-		dimensionNames: {'skill' . 'weight' . 'height' . 'charisma'. 'stamina'};
-		yourself.
+		dimensionNames: {'skill' . 'weight' . 'height' . 'charisma'. 'stamina'}.
 	
 	^ data

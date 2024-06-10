@@ -1,4 +1,0 @@
-defaults
-spiderChartColors
-
-	self subclassResponsibility
