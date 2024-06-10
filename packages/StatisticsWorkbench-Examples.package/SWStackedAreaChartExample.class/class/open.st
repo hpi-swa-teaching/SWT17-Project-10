@@ -8,4 +8,4 @@ open
 		add: self data2;
 		add: self data3.
 		
-	^ (SWDiagram new visualizeStacked: dataCollection with: SWAreaChart) openInWindow
+	^ (SWDiagram new visualizeStacked: dataCollection with: SWAreaChart) openInWindowLabeled: ''

@@ -6,4 +6,4 @@ open
 	graph := SWDiagram new visualize: self data with: SWScatterPlot.
 	SWLinearRegression newFromScatterPlot: (graph charts) first plotOn: graph.
 
-	^ graph openInWindow
+	^ graph openInWindowLabeled: ''

@@ -13,4 +13,4 @@ open
 		add: data2;
 		add: data3.
 		
-	^ (SWDiagram new visualizeStackedRelative: dataCollection with: SWAreaChart) openInWindow
+	^ (SWDiagram new visualizeStackedRelative: dataCollection with: SWAreaChart) openInWindowLabeled: ''

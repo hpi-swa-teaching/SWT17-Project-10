@@ -16,8 +16,7 @@ createIMGExportBtn
 	icon := self loadExportIconFor: button.
 	button addMorph: icon.
 	icon position: button position + (button extent - icon extent // 2).
-	self buttonHighlighting: button.
-
 	self 
+		buttonHighlighting: button;
 		exportButton: button;
 		addMorph: button.

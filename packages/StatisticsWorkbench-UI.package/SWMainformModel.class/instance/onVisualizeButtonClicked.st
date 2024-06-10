@@ -9,4 +9,4 @@ onVisualizeButtonClicked
 				do: [:each | 
 					diagram := SWDiagram new visualize: (self processInputDataFor: each) with: each.
 					diagram applyColorTheme: (self selectedTheme) new.
-					diagram openInWindow]]
+					diagram openInWindowLabeled: '']]

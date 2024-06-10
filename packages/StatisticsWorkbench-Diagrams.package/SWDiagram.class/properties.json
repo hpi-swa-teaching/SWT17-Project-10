@@ -11,7 +11,8 @@
 		"legend",
 		"colorTheme",
 		"exportButton",
-		"logo" ],
+		"logo",
+		"seriesCount" ],
 	"name" : "SWDiagram",
 	"pools" : [
 		 ],

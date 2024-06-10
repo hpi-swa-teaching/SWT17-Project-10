@@ -1,4 +1,4 @@
 instance creation
 open
 	
-	^ (SWDiagram new visualize: self dataLabeled and: self dataUnlabeled with: SWBarChart and: SWLineChart) openInWindow
+	^ (SWDiagram new visualize: self dataLabeled and: self dataUnlabeled with: SWBarChart and: SWLineChart) openInWindowLabeled: ''

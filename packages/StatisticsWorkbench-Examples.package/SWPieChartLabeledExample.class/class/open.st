@@ -1,4 +1,4 @@
 instance creation
 open
 	
-	^ (SWDiagram new visualize: self data with: SWPieChart) openInWindow
+	^ (SWDiagram new visualize: self data with: SWPieChart) openInWindowLabeled: ''
