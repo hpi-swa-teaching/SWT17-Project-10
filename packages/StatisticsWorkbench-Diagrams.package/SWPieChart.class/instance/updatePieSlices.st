@@ -5,7 +5,9 @@ updatePieSlices
 	
 	position := 1.
 	wheelColors := Color wheel: self data size.
-	self removeAllPieSlices.
+	self removeAllPieSlices;
+		radius: self dynamicRadius;
+		center: diagram center.
 	self data do: [:vector | 
 		self createPieSliceFrom: vector at: position colored: (
 		position < self colorArray size
