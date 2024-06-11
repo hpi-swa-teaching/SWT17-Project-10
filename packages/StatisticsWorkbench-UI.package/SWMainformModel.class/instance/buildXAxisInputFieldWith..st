@@ -5,6 +5,6 @@ buildXAxisInputFieldWith: aBuilder
 		model: self ;
 		editText: #setXAxisValues:;
 		getText: #xAxis;
-		frame: (0.3@0.23 corner: 1@0.33);
+		frame: (0.3@0.24 corner: 1@0.34);
 		indicateUnacceptedChanges: false;
 		yourself

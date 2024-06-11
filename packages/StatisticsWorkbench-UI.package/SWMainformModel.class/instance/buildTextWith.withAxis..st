@@ -6,13 +6,13 @@ buildTextWith: aBuilder withAxis: aNumber
     
     aNumber caseOf: {
         [1] -> [windowContent := #buildXAxisLabel.
-                layoutPosition := 0.3@0.15 corner: 1@0.25].
+                layoutPosition := 0.3@0.17 corner: 1@0.25].
         [2] -> [windowContent := #buildYAxisLabel.
-                layoutPosition := 0.3@0.33 corner: 1@0.25].
+                layoutPosition := 0.3@0.37 corner: 0.75@0.25].
         [3] -> [windowContent := #buildColumnsLabel.
-                layoutPosition := 0.3@0.5 corner: 1@0.25].
+                layoutPosition := 0.3@0.68 corner: 1@0.25].
         [4] -> [windowContent := #buildThemeLabel.
-                layoutPosition := 0@0.62 corner: 1@0.65].
+                layoutPosition := 0@0.82 corner: 1@0.9].
     } otherwise: [
         windowContent := #buildXAxisLabel.
         layoutPosition := 0.3@0.53 corner: 1@0.15

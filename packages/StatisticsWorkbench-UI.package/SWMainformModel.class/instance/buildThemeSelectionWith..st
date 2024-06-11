@@ -7,10 +7,12 @@ buildThemeSelectionWith: aBuilder
                 model: self;
                 label: 'Light';
                 frame: (0@0 corner: 0.33@1.0);
+ style: #menuButton;
                 state: #isLightSelected;
                 action: [self updateTheme: SWDefaultTheme]).
             (aBuilder pluggableRadioButtonSpec new
                 model: self;
+ style: #menuButton;
                 label: 'Dark';
                 frame: (0.33@0 corner: 0.66@1.0);
                 state: #isDarkSelected;
@@ -18,9 +20,10 @@ buildThemeSelectionWith: aBuilder
             (aBuilder pluggableRadioButtonSpec new
                 model: self;
                 label: 'HPI';
+ style: #menuButton;
                 frame: (0.66@0 corner: 1.0@1.0);
                 state: #isHPISelected;
                 action: [self updateTheme: SWHPITheme])
         };
-        frame: (0@0.7 corner: 0.3@0.85);
+        frame: (0@0.9 corner: 0.3@1);
         yourself

@@ -6,18 +6,18 @@ buildWith: aBuilder
 		label: 'Statistics Workbench';
 		extent: self defaultWindowExtent;
 		children:{
-			self buildChartSelectionWith: aBuilder.
-			self buildCsvFileSelectionWith: aBuilder.
-			self buildVisualizeButtonWith: aBuilder.
-			self buildXAxisInputFieldWith: aBuilder.
-			self buildYAxisInputFieldWith: aBuilder.
-			self buildColumnsInputFieldWith: aBuilder.
 			self buildExportPNGButtonWith: aBuilder.
-			self buildAdvancedChartsButtonWith: aBuilder.
+			self buildCsvFileSelectionWith: aBuilder.
+			self buildChartSelectionWith: aBuilder.
+			self buildThemeSelectionWith: aBuilder.
+			self buildVisualizeButtonWith: aBuilder.
 			self buildTextWith: aBuilder withAxis: 1.
 			self buildTextWith: aBuilder withAxis: 2.
 			self buildTextWith: aBuilder withAxis: 3.
 			self buildTextWith: aBuilder withAxis: 4.
-			self buildThemeSelectionWith: aBuilder.
+			self buildXAxisInputFieldWith: aBuilder.
+			self buildColumnsInputFieldWith: aBuilder.
+			self buildYAxisSelectionWith: aBuilder.
+			self buildChangeYAxisSelectionWith: aBuilder.
 		};
 		yourself)

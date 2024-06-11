@@ -5,7 +5,7 @@ processInputDataFor: aDiagramType
 	
 	parsedLabels :=  self splitStringAndReturnStrings: self namedColumns.
 	parsedXData := self splitStringAndConvertToNumbers: self xAxis.
-	parsedYData := self splitStringAndConvertToNumbers: self yAxis.
+	parsedYData := self splitStringAndConvertToNumbers: self yAxis first.
 	(aDiagramType new requiresXValues)
 		ifTrue: [swdata := SWDataLabeled fromXValues: parsedXData versusYValues: parsedYData]
 		ifFalse: [swdata := SWDataLabeled fromYValues: parsedYData].

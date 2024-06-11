@@ -1,4 +1,0 @@
-event-handling
-onAdvancedChartButtonClicked
-
-	SWMainformModelAdvanced open.
