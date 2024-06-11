@@ -1,4 +1,4 @@
 chart-selection
 chartsToVisualize
 
-	^ self getCharts select: [:each | self chartSelection at: (self getCharts indexOf: each)]
+	^ self getAllCharts select: [:each | self chartSelection at: (self getAllCharts indexOf: each)]

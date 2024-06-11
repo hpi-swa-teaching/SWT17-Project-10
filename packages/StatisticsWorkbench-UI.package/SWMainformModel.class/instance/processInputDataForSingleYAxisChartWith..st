@@ -1,7 +1,7 @@
 event-handling
-processInputDataFor: aDiagramType
+processInputDataForSingleYAxisChartWith: aDiagramType
 
-	| swdata parsedLabels parsedXData parsedYData|
+	| swdata parsedLabels parsedXData parsedYData |
 	
 	parsedLabels :=  self splitStringAndReturnStrings: self namedColumns.
 	parsedXData := self splitStringAndConvertToNumbers: self xAxis.
