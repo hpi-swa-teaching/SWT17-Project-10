@@ -1,0 +1,4 @@
+accessing
+originalData
+	
+	^ originalData

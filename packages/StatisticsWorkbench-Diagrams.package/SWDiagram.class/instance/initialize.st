@@ -6,4 +6,6 @@ initialize
 		seriesCount: 0;
 		charts: OrderedCollection new;
 		applyColorTheme: SWDefaultTheme new;
-		disableBordersOnFocus
+		disableBordersOnFocus;
+		stacked: false;
+		normalized: false.

@@ -1,12 +1,10 @@
 visualization
-visualize: aSWData with: aSWChart
+visualize: aSWData original: aSWOriginalData with: aSWChart 
 
 	| coordinateSystem chart |
 	(self dataCollection) ifNil: [self dataCollection: (OrderedCollection newFrom: aSWData)].
 	chart := aSWChart create.
-	self seriesCount: self seriesCount + 1.
-	(aSWData dataName)
-		ifNil: [aSWData dataName: 'Series ', self seriesCount].
+
 	(chart needsCoordinateSystem and: [self hasCoordinateSystem not])
 		ifTrue: [
 			coordinateSystem := chart requiredCoordinateSystem create.
@@ -20,12 +18,16 @@ visualize: aSWData with: aSWChart
 	chart diagram: self.
 	(chart isKindOf: SWSpiderChart)
 		ifTrue: [chart data: (self transformToSpiderData: aSWData)]
-		ifFalse: [chart data: aSWData].
+		ifFalse: [chart data: aSWData. chart originalData: aSWOriginalData].
 		
 	(chart needsCoordinateSystem)
 		ifTrue: [self coordinateSystem diagram: self]
 		ifFalse: [self bounds: chart bounds].
+		
+	(self normalized)
+		ifTrue: [chart dataSuffix: '%'.
+	self coordinateSystem percentageBased: true.
+	self coordinateSystem yAxis markerSuffix: '%'.].
 
-	(self exportButton)
-		ifNil: [self createIMGExportBtn].
+	self createIMGExportBtn.
 	self update
