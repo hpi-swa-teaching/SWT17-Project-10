@@ -1,11 +1,14 @@
 as yet unclassified
 open
 
-	| dataCollection|
+	| dataCollection diagram|
 	dataCollection := OrderedCollection new.
 	dataCollection
 		add: self data1;
 		add: self data2;
 		add: self data3.
 		
-	^ (SWDiagram new visualizeStacked: dataCollection with: SWAreaChart) openInWindow
+	diagram := SWDiagram new.
+	diagram stacked: true.
+		
+	^ (diagram visualizeAll: dataCollection with: SWAreaChart) openInWindow

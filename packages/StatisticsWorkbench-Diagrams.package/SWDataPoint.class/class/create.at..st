@@ -8,4 +8,5 @@ create: aSWVector at: aRenderedPoint
 				height: self defaultHeight;
 				color: self defaultColor;
 				borderColor: self defaultColor;
+				suffix: '';
 				yourself

@@ -7,7 +7,9 @@
 	"commentStamp" : "JB 6/21/2018 10:08",
 	"instvars" : [
 		"data",
-		"diagram" ],
+		"originalData",
+		"diagram",
+		"dataSuffix" ],
 	"name" : "SWChart",
 	"pools" : [
 		 ],

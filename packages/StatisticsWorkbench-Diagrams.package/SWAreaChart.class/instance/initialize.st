@@ -5,4 +5,4 @@ initialize
 	self lineMorph: self createLineMorph;
 		lineColor: self class defaultColor;
 		dataPoints: OrderedCollection new;
-		dataPointSuffix: ''
+		dataSuffix: ''

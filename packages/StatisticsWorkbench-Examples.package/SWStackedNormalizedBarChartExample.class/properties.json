@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SWStackedRelativeAreaChartExample",
+	"name" : "SWStackedNormalizedBarChartExample",
 	"pools" : [
 		 ],
 	"super" : "SWExample",

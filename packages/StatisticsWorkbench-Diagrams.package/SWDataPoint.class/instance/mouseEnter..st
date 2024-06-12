@@ -3,7 +3,7 @@ mouseEnter: anEvent
 	
 	| popup popupText |
 	
-	popupText := 'X: ' , (self vector x asFloat printShowingDecimalPlaces: 2) asString , String cr , 'Y: ' , (self vector y asFloat printShowingDecimalPlaces: 2) asString, self suffix.
+	popupText := 'X: ' , (self round:(self vector x) to: 0.001) asString , String cr , 'Y: ' , (self round:(self vector y) to:0.01) asString, self suffix.
 	popup := TextMorph new contents: popupText.
 	popup center: self topCenter + (0 @ -20).
 	self addMorph: popup.

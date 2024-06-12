@@ -5,4 +5,6 @@ initialize
 	self
 		charts: OrderedCollection new;
 		applyColorTheme: SWDefaultTheme new;
-		disableBordersOnFocus
+		disableBordersOnFocus;
+		stacked: false;
+		normalized: false.
