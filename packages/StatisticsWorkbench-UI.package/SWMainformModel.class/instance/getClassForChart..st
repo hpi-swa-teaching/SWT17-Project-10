@@ -2,11 +2,14 @@ event-handling
 getClassForChart: aChartString
 
 	aChartString caseOf: {
-		['BarChart'] -> [^ SWBarChart].
 		['PieChart'] -> [^ SWPieChart].
+		['BarChart'] -> [^ SWBarChart].
 		['LineChart'] -> [^ SWLineChart].
-		['SpiderChart'] -> [^ SWSpiderChart].
+		['AreaChart'] -> [^ SWAreaChart].
 		['ScatterPlot'] -> [^ SWScatterPlot].
+		['SpiderChart'] -> [^ SWSpiderChart].
+		['Normalized BarChart'] -> [^ SWBarChart].
+		['Normalized AreaChart'] -> [^ SWAreaChart].
     } otherwise: [^ SWBarChart].
 
 
