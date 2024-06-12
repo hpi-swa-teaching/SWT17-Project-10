@@ -9,5 +9,5 @@ checkInputValidity
 				ifFalse: [
 					self parseYData.
 					(self checkYValidity)
-						ifTrue: [^ true]
+						ifTrue: []
 						ifFalse: [self inform: 'Error: Data series have different sizes.']]]
