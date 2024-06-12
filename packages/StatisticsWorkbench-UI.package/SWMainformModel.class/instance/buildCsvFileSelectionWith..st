@@ -3,9 +3,10 @@ buildCsvFileSelectionWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Choose CSV-File';
+		label: 'Import';
+		style: #menuButton;
 		action: #openFileChooser;
-		frame: (0@0 corner: 1@0.15);
+		frame: (0@0 corner: 0.5@0.15);
 		yourself
 	
 	

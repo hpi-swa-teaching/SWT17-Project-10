@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"create" : " Nils Urban 5/28/2024 10:10" },
+		"create" : "Nils Urban 5/28/2024 10:10" },
 	"instance" : {
-		"addDatapointsToLine" : " Nils Urban 6/12/2024 14:38",
-		"createLineMorph" : " Nils Urban 6/7/2024 09:59",
-		"createVertices" : " Nils Urban 5/28/2024 10:47",
-		"initialize" : " Nils Urban 6/12/2024 14:39",
-		"update" : " Nils Urban 6/7/2024 10:04" } }
+		"addDatapointsToLine" : "Nils Urban 6/12/2024 14:38",
+		"createLineMorph" : "Nils Urban 6/7/2024 09:59",
+		"createVertices" : "Nils Urban 5/28/2024 10:47",
+		"initialize" : "Nils Urban 6/12/2024 14:39",
+		"update" : "Nils Urban 6/7/2024 10:04" } }

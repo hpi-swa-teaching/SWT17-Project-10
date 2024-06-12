@@ -13,7 +13,8 @@
 		"yAxis",
 		"parsedFile",
 		"yAxisSelected",
-		"selectedTheme" ],
+		"selectedTheme",
+		"yAxisSelection" ],
 	"name" : "SWMainformModel",
 	"pools" : [
 		 ],

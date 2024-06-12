@@ -1,4 +1,4 @@
 instance creation
 open
 	
-	^ (SWDiagram new visualize: self data with: SWSpiderChart) openInWindow
+	^ (SWDiagram new visualize: self data with: SWSpiderChart) openInWindowLabeled: ''

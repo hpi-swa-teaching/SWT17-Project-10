@@ -1,12 +1,11 @@
 event-handling
 onVisualizeButtonClicked
 
-	| diagram |
+	| containsSingleYChart |
 	self chartsToVisualize isEmpty
 		ifTrue: [self inform: 'Error: Please select some charts to visualize.']
 		ifFalse: [
-			self chartsToVisualize
-				do: [:each | 
-					diagram := SWDiagram new visualize: (self processInputDataFor: each) with: each.
-					diagram applyColorTheme: (self selectedTheme) new.
-					diagram openInWindow]]
+			containsSingleYChart := self hasOneEqualItemFrom: self chartsToVisualize with: self getSingleYCharts.
+			(self yAxis size > 1  & containsSingleYChart)
+				ifTrue: [self inform: 'Error: Cannot build Charts with multiple yAxis.']
+				ifFalse: [self visualizeCharts]]

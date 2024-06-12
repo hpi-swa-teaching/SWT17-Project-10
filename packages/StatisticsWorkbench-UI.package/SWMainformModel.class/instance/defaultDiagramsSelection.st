@@ -1,4 +1,4 @@
 default-values
 defaultDiagramsSelection
 	
-	^ OrderedCollection new: SWChart subclasses size withAll: false
+	^ OrderedCollection new: self getAllCharts size withAll: false
