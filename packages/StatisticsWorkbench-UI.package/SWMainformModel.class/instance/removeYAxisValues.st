@@ -1,7 +1,7 @@
 yAxis-selection
 removeYAxisValues
-	| temp index|
 	
+	| temp index |
 	yAxisSelection isEmpty
 	ifTrue: [self inform: 'Error: Please add some yAxis values before!'];
 	ifFalse: [

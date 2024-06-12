@@ -5,6 +5,6 @@ testIsNewFileChosenReturnsFalse
 	
 	fileStream := self createFileStreamNamed: 'File1.txt'.
 	mainformModel stream: fileStream.
-	mainformModel parseData.
+	mainformModel parseCSVData.
 
 	self assert: (mainformModel isNewFileChosen not)	

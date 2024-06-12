@@ -1,4 +1,4 @@
 chart-selection
 getAllCharts
 
-	 ^ self getSingleYCharts , self getMultipleYCharts
+	 ^ {'PieChart'. 'BarChart' . 'LineChart'. 'AreaChart' . 'ScatterPlot'. 'SpiderChart'. 'Normalized BarChart' . 'Normalized AreaChart'}

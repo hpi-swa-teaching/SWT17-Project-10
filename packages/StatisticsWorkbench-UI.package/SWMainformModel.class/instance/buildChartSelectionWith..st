@@ -6,5 +6,5 @@ buildChartSelectionWith: aBuilder
 		list: #getAllCharts;
 		getSelectionList: #isSelected:;
 		setSelectionList: #chart:setSelected:;
-		frame: (0@0.15 corner: 0.3@0.8);
+		frame: (0 @ 0.15 corner: 0.3 @ 0.8);
 		yourself

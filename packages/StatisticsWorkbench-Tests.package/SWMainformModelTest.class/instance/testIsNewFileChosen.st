@@ -5,7 +5,7 @@ testIsNewFileChosen
 
 	fileStream := self createFileStreamNamed: 'File1.txt'.
 	self	mainformModel stream: fileStream;
-		parseData.
+		parseCSVData.
 	
 	fileStream := self createFileStreamNamed: 'File2.txt'.
 	self mainformModel stream: fileStream.

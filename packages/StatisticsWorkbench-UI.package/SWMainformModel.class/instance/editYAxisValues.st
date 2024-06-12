@@ -1,6 +1,7 @@
 yAxis-selection
 editYAxisValues
-| t1  index|
+	
+	| t1  index|
 	index := self yAxisSelection indexOf: true ifAbsent: [0].
 	index = 0
 		ifTrue: [self inform: 'Error: Please select one yAxis before!']
