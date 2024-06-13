@@ -10,10 +10,10 @@
 		"numberOfCharts" : "PAR 5/13/2021 08:56",
 		"setUp" : "PAR 8/6/2021 12:54",
 		"testChartSelection" : "PAR 8/6/2021 12:54",
-		"testChartSelectionLength" : "PAR 8/6/2021 12:54",
-		"testChartsToVisualize" : "PAR 8/6/2021 12:54",
+		"testChartSelectionLength" : "JB 6/12/2024 20:58",
+		"testChartsToVisualize" : "JB 6/12/2024 21:00",
 		"testDefaultChartSelection" : "PAR 8/6/2021 12:55",
-		"testIsNewFileChosen" : "JB 6/12/2024 16:29",
+		"testIsNewFileChosen" : "JB 6/12/2024 21:00",
 		"testIsNewFileChosenReturnsFalse" : "JB 6/12/2024 16:29",
 		"testObserverNotification" : "PAR 8/6/2021 12:55",
 		"update:" : "PAR 5/12/2021 19:18" } }

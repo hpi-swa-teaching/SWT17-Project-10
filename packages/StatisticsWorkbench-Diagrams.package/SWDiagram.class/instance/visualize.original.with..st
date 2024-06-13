@@ -4,7 +4,9 @@ visualize: aSWData original: aSWOriginalData with: aSWChart
 	| coordinateSystem chart |
 	(self dataCollection) ifNil: [self dataCollection: (OrderedCollection newFrom: aSWData)].
 	chart := aSWChart create.
-
+	self seriesCount: self seriesCount + 1.
+	(aSWData dataName)
+		ifNil: [aSWData dataName: 'Series ', self seriesCount].
 	(chart needsCoordinateSystem and: [self hasCoordinateSystem not])
 		ifTrue: [
 			coordinateSystem := chart requiredCoordinateSystem create.

@@ -1,11 +1,16 @@
 event-handling
 visualizeCharts
 
-	| diagram chartType|
+	| diagram chartType diagramCollection |
 	
+	diagramCollection := OrderedCollection new.
 	self chartsToVisualize
 		do: [:each |
+			diagram := self createDiagramFor: each.
 			chartType := self getClassForChart: each.
-			diagram := SWDiagram new visualizeAll: (self processInputDataFor: chartType) with: chartType.
-			diagram applyColorTheme: (self selectedTheme) new.
-			diagram openInWindowLabeled: '']
+			diagram 
+				visualizeAll: (self processInputDataFor: chartType) with: chartType;
+				applyColorTheme: (self selectedTheme) new.
+			diagramCollection add: diagram].
+		
+	^ diagramCollection

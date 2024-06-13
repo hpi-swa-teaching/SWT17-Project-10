@@ -1,5 +1,5 @@
 event-handling
-onVisualizeButtonClicked
+checkInputValidity
 
 	self chartsToVisualize isEmpty
 		ifTrue: [self inform: 'Error: Please select some charts to visualize.']
@@ -9,5 +9,5 @@ onVisualizeButtonClicked
 				ifFalse: [
 					self parseYData.
 					(self checkYValidity)
-						ifTrue: [self visualizeCharts do: [:each | each openInWindowLabeled: '']]
+						ifTrue: []
 						ifFalse: [self inform: 'Error: Data series have different sizes.']]]

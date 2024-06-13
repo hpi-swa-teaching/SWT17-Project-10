@@ -10,6 +10,7 @@ processInputDataFor: aDiagramType
 		(aDiagramType new requiresXValues)
 			ifTrue: [swdata := SWDataLabeled fromXValues: parsedXData versusYValues: each]
 			ifFalse: [swdata := SWDataLabeled fromYValues: each].
+		swdata setLabels: parsedLabels.
 		dataCollection add: swdata
 	].
 	
