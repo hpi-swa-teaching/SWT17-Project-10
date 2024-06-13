@@ -1,0 +1,4 @@
+accessing
+captionColor
+
+	^ captionColor

@@ -3,7 +3,7 @@ createBarsFrom: aSWData
 
 	| xOfBar height bar |
 	
-	aSWData do: [:vector |
+	aSWData doWithIndex: [:vector :index |
 		xOfBar := self barPositionFor: vector x.
 		height := self barBottom - (self coordinateSystem positionFor: (0 @ vector y)) y.
 		bar := (SWBar new
@@ -12,8 +12,8 @@ createBarsFrom: aSWData
 						height: height;
 						vector: vector;
 						color: self barColor;
-						caption: vector labelName; 
 						bottom: self barBottom;
+						captionColor: self barLabelColor;
 						yourself).
-		bar barLabelMorph color: self barLabelColor.
+		((self data at: index) y = 0) ifFalse: [bar caption: vector labelName].
 		self add: bar]

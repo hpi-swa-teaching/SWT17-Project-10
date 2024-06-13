@@ -6,11 +6,13 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:35",
 	"instvars" : [
+		"captionColor",
 		"barLabelMorph",
 		"bottom",
 		"isLabelHorizontal",
 		"rotationMorph",
-		"infoPopup" ],
+		"infoPopup",
+		"isHidden" ],
 	"name" : "SWBar",
 	"pools" : [
 		 ],

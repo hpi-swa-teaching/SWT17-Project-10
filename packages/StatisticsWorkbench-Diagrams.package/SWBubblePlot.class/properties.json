@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:10",
+	"commentStamp" : "",
 	"instvars" : [
-		"vector",
-		"datapointIndex" ],
-	"name" : "SWChartElement",
+		"threshold" ],
+	"name" : "SWBubblePlot",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SWScatterPlot",
 	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWBubblePlotExample",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }
