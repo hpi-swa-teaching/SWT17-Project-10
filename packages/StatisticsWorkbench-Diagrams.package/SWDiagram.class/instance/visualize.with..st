@@ -2,7 +2,7 @@ visualization
 visualize: aSWData with: aSWChart
 
 	| coordinateSystem chart |
-	(self dataCollection) ifNil: [self dataCollection: (OrderedCollection newFrom: aSWData)].
+	(self dataCollection) ifNil: [self dataCollection: (OrderedCollection with: aSWData)].
 	chart := aSWChart create.
 	self seriesCount: self seriesCount + 1.
 	(aSWData dataName)
