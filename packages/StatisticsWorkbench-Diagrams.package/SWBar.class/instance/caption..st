@@ -10,6 +10,8 @@ caption: aString
 
 	self barLabelMorph contents: aString.
 	self barLabelMorph color: self captionColor.
+
+	self rotationMorph topLeft: self topLeft.
 	
 	(self isLabelHorizontal and: self isLabelTooLong) 
 		ifTrue: [self rotateLabel].
