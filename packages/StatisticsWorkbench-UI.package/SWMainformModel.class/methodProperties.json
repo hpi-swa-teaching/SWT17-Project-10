@@ -2,8 +2,8 @@
 	"class" : {
 		"open" : "PAR 5/8/2021 11:00" },
 	"instance" : {
-		"addYAxisValues" : "JB 6/12/2024 15:08",
-		"buildChangeYAxisSelectionWith:" : "JB 6/12/2024 16:44",
+		"addYAxisValues:" : "s 6/14/2024 22:11",
+		"buildChangeYAxisSelectionWith:" : "s 6/14/2024 22:12",
 		"buildChartSelectionWith:" : "JB 6/12/2024 16:43",
 		"buildColumnsInputFieldWith:" : "JB 6/12/2024 16:43",
 		"buildColumnsLabel" : "s 6/6/2024 19:32",
@@ -34,7 +34,7 @@
 		"defaultXValue" : "JB 6/9/2024 20:32",
 		"defaultYAxisSelection" : "s 6/11/2024 17:36",
 		"defaultYValue" : "JB 6/9/2024 20:30",
-		"editYAxisValues" : "JB 6/12/2024 15:08",
+		"editYAxisValues" : "s 6/14/2024 22:11",
 		"exportIMG:" : "JB 6/12/2024 15:15",
 		"getAllCharts" : "JB 6/12/2024 15:02",
 		"getClassForChart:" : "JB 6/12/2024 17:24",
@@ -65,6 +65,7 @@
 		"setXAxisValues:" : "s 5/27/2024 22:01",
 		"setYAxis:" : "JB 6/12/2024 15:08",
 		"setYAxisValues:" : "s 5/27/2024 22:01",
+		"showYAxisPopup" : "s 6/14/2024 22:12",
 		"splitStringAndConvertToNumbers:" : "JB 6/12/2024 16:07",
 		"splitStringAndConvertToStrings:" : "JB 6/12/2024 16:41",
 		"stream" : "PAR 8/5/2021 14:36",
