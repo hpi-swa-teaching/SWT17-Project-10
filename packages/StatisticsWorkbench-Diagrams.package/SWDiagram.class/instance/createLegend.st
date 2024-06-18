@@ -6,4 +6,5 @@ createLegend
 	self legend: key.
 	self legend topLeft: self topRight.
 	self legend key topLeft: self topRight.
-	self addMorph: key
+	self addMorph: key.
+	self updateLegend

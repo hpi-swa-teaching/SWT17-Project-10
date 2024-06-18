@@ -1,4 +1,4 @@
-accessing
+testing
 testNumberOfDimensions
 
 	self assert: self data dimensionNames equals: self spiderChart dimensionNames.

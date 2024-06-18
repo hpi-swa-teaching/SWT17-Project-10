@@ -1,8 +1,9 @@
 adding/removing
 deleteChart: aSWChart
 
-	|chartType|
+	| chartType |
 	chartType := aSWChart class.
+	Transcript show: aSWChart originalData.
 	self dataCollection remove: (aSWChart originalData).
 	aSWChart delete.
 	self charts do:[:aChart | aChart delete].

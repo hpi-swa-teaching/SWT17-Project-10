@@ -20,7 +20,8 @@ visualize: aSWData original: aSWOriginalData with: aSWChart
 	chart diagram: self.
 	(chart isKindOf: SWSpiderChart)
 		ifTrue: [chart data: (self transformToSpiderData: aSWData)]
-		ifFalse: [chart data: aSWData. chart originalData: aSWOriginalData].
+		ifFalse: [chart data: aSWData].
+	chart originalData: aSWOriginalData.
 		
 	(chart needsCoordinateSystem)
 		ifTrue: [self coordinateSystem diagram: self]
