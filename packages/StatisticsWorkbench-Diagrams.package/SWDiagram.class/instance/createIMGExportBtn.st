@@ -5,18 +5,17 @@ createIMGExportBtn
 	button := SimpleButtonMorph new.
 	button
 		label: '';
-		color: Color white;
-		extent: 45 @ 35;
+		color: Color lightBlue;
+		extent: 145 @ 35;
 		target: self;
 		actionSelector: #exportIMG;
-		position: self position;
+		position: self position + (60 @ -50);
 		cornerStyle: #rounded;
 		borderWidth: 3;
-		borderColor: Color black.
+		borderColor: Color lightBlue.
 	icon := self loadExportIconFor: button.
 	button addMorph: icon.
 	icon position: button position + (button extent - icon extent // 2).
 	self 
-		buttonHighlighting: button;
 		exportButton: button;
 		addMorph: button.
