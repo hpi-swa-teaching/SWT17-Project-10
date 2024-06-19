@@ -1,4 +1,4 @@
 geometry
 dynamicRadius
 
-	^ (diagram extent x / self radiusScalingFactor) min: (diagram extent y / self radiusScalingFactor)
+	^(diagram extent x / radiusScalingFactor) min: (diagram extent y / radiusScalingFactor)

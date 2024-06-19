@@ -1,8 +1,6 @@
 updating
 update
 
-	self 
-		deleteGraph;
+	self deleteGraph;
 		updateColor;
-		drawGraph.
-	self diagram updateCoordinateSystem
+		drawGraph

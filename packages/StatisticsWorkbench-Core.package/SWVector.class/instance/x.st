@@ -1,4 +1,4 @@
 accessing
 x
 
-	^ self first
+	^ self asPoint x

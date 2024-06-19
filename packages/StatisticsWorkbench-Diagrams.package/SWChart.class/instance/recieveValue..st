@@ -1,4 +1,4 @@
 adding/removing
-receiveValue: aValue
+recieveValue: aValue
 
 	^ self subclassResponsibility

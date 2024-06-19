@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:34",
 	"instvars" : [
+		"name",
 		"centerPoint",
 		"slice",
+		"startpoint",
 		"value",
 		"edgePoints",
 		"label" ],

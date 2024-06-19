@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"create" : "ds 6/19/2020 19:11",
-		"defaultColor" : "ds 6/19/2020 19:11" },
+		"defaultColor" : "ds 6/19/2020 19:11",
+		"defaultStepInterval" : "ds 6/19/2020 19:11" },
 	"instance" : {
 		"add:" : "ds 6/19/2020 19:10",
 		"applyTheme:" : "IK 5/20/2021 19:31",
