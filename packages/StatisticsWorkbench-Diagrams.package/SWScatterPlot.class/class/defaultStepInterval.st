@@ -1,4 +1,0 @@
-defaults
-defaultStepInterval 
-
-	^ 10

@@ -7,7 +7,6 @@
 	"commentStamp" : "jk 8/4/2020 18:12",
 	"instvars" : [
 		"sliderValueMorph",
-		"sliderMorph",
 		"seriesCount",
 		"dataCollection",
 		"charts",

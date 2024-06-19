@@ -1,12 +1,11 @@
 geometry
 axisPadding
 
-	| paddedMaximumX paddedMaximumY paddingFactorX paddingFactorY|
+	| paddedMaximumX paddedMaximumY paddingFactor|
 	
-	paddingFactorX := self class defaultAxisValuePaddingFactor.	
-	paddingFactorY := (percentageBased) ifTrue: 1.0 ifFalse: self class defaultAxisValuePaddingFactor.	
-	paddedMaximumX := (self xAxis maximum * paddingFactorX) ceiling.
-	paddedMaximumY := ( self yAxis maximum * paddingFactorY) ceiling.
+	paddingFactor := (percentageBased) ifTrue: 1.0 ifFalse: self class defaultAxisValuePaddingFactor.	
+	paddedMaximumX := (self xAxis maximum * paddingFactor) ceiling.
+	paddedMaximumY := ( self yAxis maximum * paddingFactor) ceiling.
 
 	self xAxis maximum: paddedMaximumX.
 	self yAxis maximum: paddedMaximumY
