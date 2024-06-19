@@ -1,7 +1,9 @@
 csv-file
 openFileChooser
 
-	| fc |
+	| fc fileStream |
 	fc := FileChooser new.
 	fc initializeAsDialogBox.
-	self stream: fc open
+	fileStream := fc open.
+	self stream: fileStream.
+	self parseCSVData.
