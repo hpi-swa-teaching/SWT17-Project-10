@@ -1,1 +1,0 @@
-A SWLineChartTest tests if aSWLineChart gets created in the right way.

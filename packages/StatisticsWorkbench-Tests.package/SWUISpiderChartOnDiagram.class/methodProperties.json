@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JB 6/18/2024 23:43",
+		"setUp" : "JB 6/8/2024 19:47",
 		"spiderChart" : "FM 7/28/2021 14:26",
 		"spiderChart:" : "FM 7/28/2021 14:26",
-		"testNumberOfDimensions" : "JB 6/19/2024 01:50",
-		"testRemovingSpiderChart" : "JB 6/19/2024 02:12" } }
+		"testNumberOfDimensions" : "JB 6/8/2024 16:50" } }
