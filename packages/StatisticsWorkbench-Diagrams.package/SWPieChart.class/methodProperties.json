@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"create" : "P 6/11/2024 12:17",
+		"create" : "JB 6/19/2024 02:03",
 		"defaultColorArray" : "jk 6/25/2020 21:21",
 		"defaultExtent" : "jk 6/25/2020 21:22",
 		"defaultRadius" : "6/25/2020 18:15:18",
-		"defaultRadiusScalingFactor" : "P 6/11/2024 12:18",
+		"defaultRadiusScalingFactor" : "JB 6/19/2024 02:00",
 		"defaultWorldPosition" : "6/25/2020 18:15:18" },
 	"instance" : {
 		"accumulateValues" : "6/25/2020 18:15:18",
@@ -16,7 +16,7 @@
 		"colorArray:" : "6/25/2020 18:15:18",
 		"computeRadianFrom:" : "6/25/2020 18:15:18",
 		"createPieSliceFrom:at:colored:" : "JB 6/7/2024 14:25",
-		"dynamicRadius" : "P 6/11/2024 12:17",
+		"dynamicRadius" : "JB 6/19/2024 02:04",
 		"endpointFrom:by:" : "6/25/2020 18:15:18",
 		"generateOuterBorderFromStartPoint:withValue:" : "6/25/2020 18:15:18",
 		"initialize" : "6/25/2020 18:15:18",
@@ -26,7 +26,7 @@
 		"pieSlices:" : "6/25/2020 18:15:18",
 		"radius" : "6/25/2020 18:15:18",
 		"radius:" : "6/25/2020 18:15:18",
-		"radiusScalingFactor" : "P 6/11/2024 12:16",
+		"radiusScalingFactor" : "JB 6/19/2024 02:02",
 		"radiusScalingFactor:" : "P 6/11/2024 12:16",
 		"remove:" : "6/25/2020 18:15:18",
 		"removeAll" : "6/25/2020 18:15:18",

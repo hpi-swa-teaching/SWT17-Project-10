@@ -3,10 +3,9 @@
 		"create" : "ds 6/19/2020 19:00",
 		"defaultBorderColor" : "ds 6/19/2020 19:00",
 		"defaultBorderWidth" : "JB 6/9/2024 19:35",
-		"defaultColor" : "FM 8/6/2021 13:08",
-		"defaultStepInterval" : "ds 6/19/2020 19:01" },
+		"defaultColor" : "FM 8/6/2021 13:08" },
 	"instance" : {
-		"add:" : "ds 6/19/2020 19:01",
+		"add:" : "JB 6/19/2024 02:23",
 		"addDatapointsToLine" : "FM 8/6/2021 13:07",
 		"applyDataColor" : "FM 8/6/2021 13:00",
 		"applyTheme:" : "IK 5/20/2021 19:58",

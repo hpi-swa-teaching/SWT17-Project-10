@@ -1,0 +1,1 @@
+A SWScatterPlotTest checks if aSWScatterPlot gets created as expected.
