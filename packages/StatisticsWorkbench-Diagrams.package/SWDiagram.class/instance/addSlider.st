@@ -23,6 +23,7 @@ addSlider
 		contents: (Text fromString: 'haloo').
 	
 	self sliderValueMorph: valueMorph.
+	self sliderMorph: sliderMorph.
 	
 	self sendToCharts: sliderMorph getNumericValue.
 		

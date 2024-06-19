@@ -1,9 +1,13 @@
 testing
 setUp
 
+	| diagram |
 	super setUp.
+	diagram := SWDiagram new.
 	
 	self	
 		data: SWDataStub createSeededXYZ;
-		diagram: (SWDiagram new visualize: self data with: SWBubblePlot);
-		bubblePlot: (self diagram charts) first
+		diagram: (diagram visualizeAll: self data with: SWBubblePlot);
+		bubblePlot: (self diagram charts) first.
+		
+	diagram addSlider.
