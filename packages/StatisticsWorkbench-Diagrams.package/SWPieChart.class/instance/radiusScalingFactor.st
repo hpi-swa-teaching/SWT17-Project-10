@@ -1,4 +1,4 @@
 accessing
 radiusScalingFactor
 
-	^radiusScalingFactor
+	^ radiusScalingFactor

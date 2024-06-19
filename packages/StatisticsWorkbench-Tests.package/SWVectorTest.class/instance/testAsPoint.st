@@ -1,9 +1,11 @@
 testing
 testAsPoint
-
+	
 	self assert: 0 equals: self vector1 asPoint x.
 	self assert: 0 equals: self vector1 asPoint y.
+	self assert: 1 equals: self vector4 asPoint x.
+	self assert: 2 equals: self vector4 asPoint y.
 	self assert: self vector1 asPoint isPoint.
 	self assert: self vector2 asPoint isPoint.
 	
-	self should: [self vector4 asPoint] raise: SWInvalidDimensionError
+	self should: [self vector5 asPoint] raise: SWInvalidDimensionError

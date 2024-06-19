@@ -134,10 +134,52 @@ graph showMean.
 
 You can also interact with the diagram, for example by right-clicking on data points to delete them from the diagram. This functionality can be used to exclude outliers.
 
+## List of all currently available charts:
+
+**Charts for single y-axis:**
+- Piechart
+- Barchart
+- LineCharts
+- AreaChart
+- Scatterplot
+- SpiderChart
+- Normalized BarChart
+- Normalized AreaChart
+
+**Charts that are capable of multiple y-axes:**
+- Barchart
+- LineCharts
+- AreaChart
+- Scatterplot
+- SpiderChart
+- Normalized BarChart
+- Normalized AreaChart
+
+Here is an example of how to create a stacked chart for multiple y-axes:
+```smalltalk
+(SWDiagram new stacked: true;
+    visualizeAll: dataCollection with: SWBarChart) openInWindowLabeled: ''
+```
+Here "dataCollection" is of type OrderedCollection with elemets from SWDataLabeled or SWDataUnlabeled.
+
+## The Statistic Workbench UI
 Another way of accesing the StatisticsWorkBench tool is the brand new user interface. This can be opened by calling
 
 ```smalltalk
 SWMainformModel open.
 ```
+**Features:**
+ - Import CSV
+ - Export Charts as PNG
+ - Edit X, Y axis and columns in the editor
+ - Choose different themes for your charts
+ - View all types of charts without writing commands
 
-This brings up a small window, where you can choose a CSV file, that you want to open. Then you can type in the delimeter and escape character used in the file and choose the axes that you want to use. You can also categorize the data, if it contains more than two dimensions. After picking the chart types you want to visualize by clicking on them in the menu you can click the visualize button and a window opens. 
+### Difference between Single and Multiple Y-Axes
+
+The statistics workbench is not just designed for charts with a single x and y-axis. You can add multiple y-axes using the editor or by importing them via CSV. All imported y-axis values will show up in the multiple text selector on the right side of the UI. You can also display multiple charts at the same time for the current x- and y-axes values by selecting different chart types.
+
+If you want to remove or edit y-axis values, simply select the desired rows and click the corresponding button to make the changes.
+
+#### Important Note:
+If you only have one y-axis value in your UI field, you can visualize all charts. However, if you have multiple y-axis values, you can't visualize the pieChart and will get an error message because this chart type is not designed to have more y-axes. All other charts will be stacked as you would expect with additional y-axes.

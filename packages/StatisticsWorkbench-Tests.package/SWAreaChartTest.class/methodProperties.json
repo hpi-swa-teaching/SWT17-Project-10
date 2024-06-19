@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"areaChart" : "JB 6/18/2024 22:57",
+		"areaChart:" : "JB 6/18/2024 22:57",
+		"data" : "ds 6/19/2020 20:26",
+		"data:" : "ds 6/19/2020 20:28",
+		"diagram" : "ds 6/19/2020 20:28",
+		"diagram:" : "ds 6/19/2020 20:28",
+		"setUp" : "JB 6/18/2024 22:57",
+		"testAdd" : "JB 6/18/2024 23:07",
+		"testAxesCentered" : "jk 6/20/2020 18:10",
+		"testCollectionsGetInitialized" : "JB 6/18/2024 23:08",
+		"testColoredData" : "JB 6/18/2024 22:58",
+		"testDifferentColors" : "JB 6/8/2024 19:41",
+		"testFunctionGraphVisualisation" : "JB 6/18/2024 23:10",
+		"testInitialize" : "JB 6/18/2024 22:59",
+		"testIsInvisible" : "JB 6/18/2024 22:59",
+		"testPolygonMorphInBounds" : "JB 6/18/2024 22:59",
+		"testRemoveAll" : "JB 6/18/2024 22:59",
+		"testRemoveRandom" : "JB 6/18/2024 23:12",
+		"testVerticesComparator" : "ds 6/19/2020 20:29" } }

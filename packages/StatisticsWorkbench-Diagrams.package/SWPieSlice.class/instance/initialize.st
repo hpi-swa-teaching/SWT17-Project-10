@@ -5,6 +5,5 @@ initialize
 	
 	self 
 		slice: SWPieSlicePolygon new;
-		color: Color transparent.
-	
-	self addMorph: self slice
+		color: Color transparent;
+		addMorph: self slice

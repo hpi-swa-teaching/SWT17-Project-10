@@ -1,4 +1,4 @@
 accessing
 datapointIndex
 
-	^datapointIndex
+	^ datapointIndex

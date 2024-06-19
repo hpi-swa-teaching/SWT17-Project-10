@@ -1,5 +1,5 @@
 as yet unclassified
-recieveValue: aValue
+receiveValue: aValue
 
 	self threshold: aValue.
 	self update.
