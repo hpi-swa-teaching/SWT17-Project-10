@@ -13,6 +13,10 @@ setUp
 		add: data2;
 		add: data3.
 		
-	self dataCollection: dataCollection;
-		diagram: (SWDiagram new visualizeStacked: dataCollection with: SWAreaChart)
+	self
+		dataCollection: dataCollection;
+		diagram: SWDiagram new.
+	 self diagram 
+		stacked: true;
+		visualizeAll: dataCollection with: SWAreaChart
 		

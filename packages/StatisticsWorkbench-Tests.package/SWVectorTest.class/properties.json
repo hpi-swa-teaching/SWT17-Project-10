@@ -9,7 +9,8 @@
 		"vector1",
 		"vector2",
 		"vector3",
-		"vector4" ],
+		"vector4",
+		"vector5" ],
 	"name" : "SWVectorTest",
 	"pools" : [
 		 ],
