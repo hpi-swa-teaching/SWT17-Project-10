@@ -32,5 +32,4 @@ visualize: aSWData original: aSWOriginalData with: aSWChart
 	self coordinateSystem percentageBased: true.
 	self coordinateSystem yAxis markerSuffix: '%'.].
 
-	self createIMGExportBtn.
 	self update

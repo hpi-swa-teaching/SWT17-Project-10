@@ -8,4 +8,5 @@ initialize
 		applyColorTheme: SWDefaultTheme new;
 		disableBordersOnFocus;
 		stacked: false;
-		normalized: false.
+		normalized: false;
+		createIMGExportBtn
