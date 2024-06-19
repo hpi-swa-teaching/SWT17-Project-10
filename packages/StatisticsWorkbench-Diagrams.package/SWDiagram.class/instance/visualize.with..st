@@ -27,7 +27,5 @@ visualize: aSWData with: aSWChart
 		ifTrue: [self coordinateSystem diagram: self]
 		ifFalse: [self bounds: chart bounds].
 		
-	(self exportButton)
-		ifNil: [self createIMGExportBtn]
-	
+	self createIMGExportBtn.	
 	self update
