@@ -14,6 +14,8 @@ visualizeAll: aSWDataCollection with: aSWChartSubclass
 			stackedData do: [:aData |
 				aData doWithIndex: [:vector :index |
 					vector at: 2 put: (100 * (vector y) / stack at: index)]]].
+		
+	Transcript show: stackedData; cr.
 	
 	(self stacked)
 		ifTrue: [
@@ -22,6 +24,8 @@ visualizeAll: aSWDataCollection with: aSWChartSubclass
 				aData doWithIndex: [:vector :index |
 					stack at: index put: (vector y + (stack at: index)).
 					vector at: 2 put: (stack at: index)]]].
+		
+	Transcript show: stackedData; cr.
 
 	reverseCollection := stackedData reversed.
 	reverseOriginalCollection := self dataCollection reversed.

@@ -13,6 +13,9 @@ setUp
 		add: data2;
 		add: data3.
 		
+	self diagram: SWDiagram new.
+	self configureDiagram.
+		
 	self dataCollection: dataCollection;
-		diagram: (SWDiagram new visualizeStacked: dataCollection with: SWAreaChart)
+		diagram: (self diagram visualizeAll: dataCollection with: SWAreaChart)
 		
