@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "PAR 8/6/2021 13:01",
-		"testAsPoint" : "ds 6/19/2020 20:34",
+		"setUp" : "JB 6/19/2024 11:50",
+		"testAsPoint" : "JB 6/19/2024 11:50",
 		"testAt" : "ds 6/19/2020 20:34",
 		"testCreate" : "ds 6/19/2020 20:34",
 		"testDimensions" : "ds 6/19/2020 20:34",
@@ -16,8 +16,9 @@
 		"testLess" : "ds 6/19/2020 20:35",
 		"testLessEqual" : "ds 6/19/2020 20:35",
 		"testObjectAsSWVector" : "aj 7/24/2018 15:12",
-		"testX" : "ds 6/19/2020 20:35",
-		"testY" : "ds 6/19/2020 20:35",
+		"testX" : "JB 6/19/2024 11:53",
+		"testY" : "JB 6/19/2024 11:51",
+		"testZ" : "JB 6/19/2024 11:54",
 		"vector1" : "ds 6/19/2020 20:35",
 		"vector1:" : "ds 6/19/2020 20:36",
 		"vector2" : "ds 6/19/2020 20:36",
@@ -25,4 +26,6 @@
 		"vector3" : "ds 6/19/2020 20:36",
 		"vector3:" : "ds 6/19/2020 20:36",
 		"vector4" : "ds 6/19/2020 20:36",
-		"vector4:" : "ds 6/19/2020 20:36" } }
+		"vector4:" : "ds 6/19/2020 20:36",
+		"vector5" : "JB 6/19/2024 11:50",
+		"vector5:" : "JB 6/19/2024 11:50" } }
