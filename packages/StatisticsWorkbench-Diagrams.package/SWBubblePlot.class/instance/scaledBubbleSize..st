@@ -1,4 +1,4 @@
 as yet unclassified
 scaledBubbleSize: aSize
 
-	^ (aSize) / (self diagram globalMaximum: #z) * (self dynamicMaxBubbleSize)
+	^ (aSize)/(self diagram globalMaximum: #z) * (self dynamicMaxBubbleSize)

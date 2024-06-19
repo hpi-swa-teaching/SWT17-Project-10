@@ -2,6 +2,7 @@ instance creation
 open
 
 	| dataCollection |
+	
 	dataCollection := OrderedCollection new.
 	dataCollection
 		add: self data1;

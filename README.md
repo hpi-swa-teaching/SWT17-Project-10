@@ -134,33 +134,14 @@ graph showMean.
 
 You can also interact with the diagram, for example by right-clicking on data points to delete them from the diagram. This functionality can be used to exclude outliers.
 
-## List of all currently available charts:
+Another way of accesing the StatisticsWorkBench tool is the brand new user interface. This can be opened by calling
 
-**Charts for single y-axis:**
-- Piechart
-- Barchart
-- LineCharts
-- AreaChart
-- Scatterplot
-- SpiderChart
-- Normalized BarChart
-- Normalized AreaChart
-
-**Charts that are capable of multiple y-axes:**
-- Barchart
-- LineCharts
-- AreaChart
-- Scatterplot
-- SpiderChart
-- Normalized BarChart
-- Normalized AreaChart
-
-Here is an example of how to create a stacked chart for multiple y-axes:
 ```smalltalk
-(SWDiagram new stacked: true;
-    visualizeAll: dataCollection with: SWBarChart) openInWindowLabeled: ''
+SWMainformModel open.
 ```
-Here "dataCollection" is of type OrderedCollection with elemets from SWDataLabeled or SWDataUnlabeled.
+
+This brings up a small window, where you can choose a CSV file, that you want to open. Then you can type in the delimeter and escape character used in the file and choose the axes that you want to use. You can also categorize the data, if it contains more than two dimensions. After picking the chart types you want to visualize by clicking on them in the menu you can click the visualize button and a window opens. 
+f type OrderedCollection with elemets from SWDataLabeled or SWDataUnlabeled.
 
 ## The Statistic Workbench UI
 Another way of accesing the StatisticsWorkBench tool is the brand new user interface. This can be opened by calling

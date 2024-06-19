@@ -1,22 +1,21 @@
 visualization
 createIMGExportBtn
 
-	| button icon titleBarHeight |
-
-	titleBarHeight := self getTitleBarHeight.
+	| button icon |
 	button := SimpleButtonMorph new.
 	button
 		label: '';
 		color: Color white;
-		extent: (1.8 * titleBarHeight) @ (0.8 * titleBarHeight);
+		extent: 45 @ 35;
 		target: self;
 		actionSelector: #exportIMG;
-		position: self position + (2 * titleBarHeight @ 0 - titleBarHeight);
+		position: self position;
 		cornerStyle: #rounded;
-		borderWidth: 0.1 * titleBarHeight.
+		borderWidth: 3;
+		borderColor: Color black.
 	icon := self loadExportIconFor: button.
-	icon position: button position + (button extent - icon extent // 2).
 	button addMorph: icon.
+	icon position: button position + (button extent - icon extent // 2).
 	self 
 		buttonHighlighting: button;
 		exportButton: button;
