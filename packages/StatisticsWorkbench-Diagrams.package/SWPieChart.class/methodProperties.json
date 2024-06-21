@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"create" : "JB 6/19/2024 02:03",
+		"create" : "P 6/21/2024 11:13",
 		"defaultColorArray" : "jk 6/25/2020 21:21",
 		"defaultExtent" : "jk 6/25/2020 21:22",
+		"defaultKeyWidth" : "P 6/21/2024 11:10",
 		"defaultRadius" : "6/25/2020 18:15:18",
-		"defaultRadiusScalingFactor" : "JB 6/19/2024 02:00",
+		"defaultRadiusScalingFactor" : "P 6/21/2024 11:14",
 		"defaultWorldPosition" : "6/25/2020 18:15:18" },
 	"instance" : {
 		"accumulateValues" : "6/25/2020 18:15:18",
@@ -16,11 +17,13 @@
 		"colorArray:" : "6/25/2020 18:15:18",
 		"computeRadianFrom:" : "6/25/2020 18:15:18",
 		"createPieSliceFrom:at:colored:" : "JB 6/7/2024 14:25",
-		"dynamicRadius" : "JB 6/19/2024 02:04",
+		"dynamicRadius" : "P 6/21/2024 11:13",
 		"endpointFrom:by:" : "6/25/2020 18:15:18",
 		"generateOuterBorderFromStartPoint:withValue:" : "6/25/2020 18:15:18",
 		"initialize" : "6/25/2020 18:15:18",
 		"keyInformation" : "PAR 7/13/2021 11:37",
+		"keyWidth" : "P 6/21/2024 11:13",
+		"keyWidth:" : "P 6/21/2024 11:11",
 		"needsCoordinateSystem" : "NK 6/18/2024 11:56",
 		"pieSlices" : "6/25/2020 18:15:18",
 		"pieSlices:" : "6/25/2020 18:15:18",
@@ -36,4 +39,4 @@
 		"startpointBy:" : "6/25/2020 18:15:18",
 		"update" : "JB 6/7/2024 14:25",
 		"updatePieKey" : "PAR 7/13/2021 12:24",
-		"updatePieSlices" : "P 6/11/2024 12:07" } }
+		"updatePieSlices" : "P 6/21/2024 11:14" } }
