@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testChartSelection 
 
 	self mainformModel chart: 1 setSelected: true.

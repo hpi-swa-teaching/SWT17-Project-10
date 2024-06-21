@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 createFileStreamNamed: aString
 
 	^ MultiByteFileStream fileNamed: aString

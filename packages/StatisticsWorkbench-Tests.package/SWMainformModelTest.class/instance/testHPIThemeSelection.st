@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHPIThemeSelection
 	self mainformModel updateTheme: SWHPITheme.
 	self assert: self mainformModel selectedTheme = SWHPITheme.
