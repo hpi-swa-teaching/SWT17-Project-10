@@ -1,0 +1,4 @@
+defaults
+defaultKeyWidth
+
+	^ 100

@@ -1,4 +1,4 @@
 defaults
 defaultRadiusScalingFactor
 
-	^ 2.3
+	^ 2.2

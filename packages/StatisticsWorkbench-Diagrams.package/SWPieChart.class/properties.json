@@ -11,7 +11,8 @@
 		"pieSlices",
 		"radius",
 		"colorArray",
-		"radiusScalingFactor" ],
+		"radiusScalingFactor",
+		"keyWidth" ],
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],
