@@ -1,10 +1,10 @@
 as yet unclassified
 testIsNewFileChosenReturnsFalse
 
-	| fileStream |
+	"| fileStream |
 	
 	fileStream := self createFileStreamNamed: 'File1.txt'.
 	mainformModel stream: fileStream.
 	mainformModel parseCSVData.
 
-	self assert: (mainformModel isNewFileChosen not)	
+	self assert: (mainformModel isNewFileChosen not)	"
