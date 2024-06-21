@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSetXAxisValues
 
 	self mainformModel setXAxisValues:  '1,2,3'.

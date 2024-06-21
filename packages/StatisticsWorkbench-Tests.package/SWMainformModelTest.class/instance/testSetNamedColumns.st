@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSetNamedColumns
 
 	self mainformModel setNamedColumns: 'Anna, Beta, Gamma'.

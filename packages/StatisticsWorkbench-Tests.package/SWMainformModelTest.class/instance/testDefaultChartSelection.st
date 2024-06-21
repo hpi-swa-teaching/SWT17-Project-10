@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDefaultChartSelection 
 
 	(1 to: self numberOfCharts)	do: [:each|

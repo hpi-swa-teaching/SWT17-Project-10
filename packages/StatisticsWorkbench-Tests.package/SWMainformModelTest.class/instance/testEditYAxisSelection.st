@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEditYAxisSelection
 	self assert: self mainformModel yAxisSelection size = 3.
 	self mainformModel yAxis: 3 setSelected: true.

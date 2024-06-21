@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testSetYAxisValues
 
 	self mainformModel setYAxisValues:  '1,2,3'.

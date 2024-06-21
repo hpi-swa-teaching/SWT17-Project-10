@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testYAxisSelection
 	self mainformModel yAxis: 1 setSelected: true.
 	self mainformModel yAxis: 3 setSelected: true.
