@@ -1,6 +1,6 @@
-<p align="center"><img width="300" height="300" src="https://github.com/hpi-swa-teaching/StatisticsWorkbench/blob/745c8d8d15afdd32273f4cc16a225b2b77bbdb9c/sw_logo.png?raw=true" alt="StatisticsWorkbench-Logo"></p>
+<p align="center"><img width="200" height="200" src="https://github.com/hpi-swa-teaching/StatisticsWorkbench/blob/745c8d8d15afdd32273f4cc16a225b2b77bbdb9c/sw_logo.png?raw=true" alt="StatisticsWorkbench-Logo"></p>
 
-<h1 align="center" style=font-size:100px>StatisticsWorkbench</h1>
+<h1 align="center" style=font-size:130px>StatisticsWorkbench</h1>
 
 [![Commit](https://img.shields.io/github/last-commit/hpi-swa-teaching/StatisticsWorkbench?style=flat)](https://github.com/hpi-swa-teaching/StatisticsWorkbenchStatisticsWorkbench/commits/)
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/StatisticsWorkbench/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/StatisticsWorkbench?branch=dev)
