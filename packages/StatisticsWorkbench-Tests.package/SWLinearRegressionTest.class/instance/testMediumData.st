@@ -1,4 +1,5 @@
 testing
 testMediumData
 
-	self executeTest: self class createMediumData.
+	self executeXYTest: self class createMediumData.
+	self executePlotTest: self class createMediumData
