@@ -1,0 +1,4 @@
+defaults
+hasBottomCaption
+
+	^ hasBottomCaption

@@ -7,6 +7,7 @@
 	"commentStamp" : "sjs 6/22/2020 17:52",
 	"instvars" : [
 		"barColor",
+		"hasBottomCaption",
 		"bars",
 		"barWidth",
 		"barLabelColor" ],
