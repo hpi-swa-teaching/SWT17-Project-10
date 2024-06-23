@@ -3,9 +3,12 @@
 		"create" : "Nils Urban 6/13/2024 10:24" },
 	"instance" : {
 		"createDataPoint:" : "JB 6/19/2024 21:45",
-		"dynamicMaxBubbleSize" : "Nils Urban 6/13/2024 14:45",
-		"initialize" : "Nils Urban 6/13/2024 11:27",
+		"diagram:" : " Nils Urban 6/21/2024 15:20",
+		"dynamicMaxBubbleSize" : " Nils Urban 6/21/2024 14:48",
+		"initialize" : " Nils Urban 6/21/2024 15:11",
+		"maxValuesPerData" : " Nils Urban 6/21/2024 15:04",
+		"maxValuesPerData:" : " Nils Urban 6/21/2024 14:48",
 		"receiveValue:" : "JB 6/19/2024 02:39",
-		"scaledBubbleSize:" : "JB 6/19/2024 02:38",
+		"scaledBubbleSize:" : " Nils Urban 6/21/2024 15:23",
 		"threshold" : "Nils Urban 6/13/2024 11:20",
 		"threshold:" : "Nils Urban 6/13/2024 11:20" } }

@@ -8,6 +8,7 @@
 	"instvars" : [
 		"captionColor",
 		"barLabelMorph",
+		"bottomLabelMorph",
 		"bottom",
 		"isLabelHorizontal",
 		"rotationMorph",

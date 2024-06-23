@@ -15,5 +15,5 @@ createBarsFrom: aSWData
 						bottom: self barBottom;
 						captionColor: self barLabelColor;
 						yourself).
-		((self data at: index) y = 0) ifFalse: [bar caption: vector labelName].
+		((self data at: index) y = 0) ifFalse: ["bar caption: vector labelName." bar bottomCaption: vector labelName].
 		self add: bar]

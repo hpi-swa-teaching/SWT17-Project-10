@@ -4,6 +4,7 @@ visualize: aSWData original: aSWOriginalData with: aSWChart
 	| coordinateSystem chart |
 	(self dataCollection) ifNil: [self dataCollection: (OrderedCollection with: aSWData)].
 	chart := aSWChart create.
+	chart diagram: self.
 	self seriesCount: self seriesCount + 1.
 	(aSWData dataName)
 		ifNil: [aSWData dataName: 'Series ', self seriesCount].
@@ -17,7 +18,6 @@ visualize: aSWData original: aSWOriginalData with: aSWChart
 		ifTrue: [self createLegend].
 	
 	self add: chart.
-	chart diagram: self.
 	(chart isKindOf: SWSpiderChart)
 		ifTrue: [chart data: (self transformToSpiderData: aSWData)]
 		ifFalse: [chart data: aSWData].

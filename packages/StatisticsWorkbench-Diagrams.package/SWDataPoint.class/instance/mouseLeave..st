@@ -1,4 +1,4 @@
 event handling
 mouseLeave: anEvent
 
-	self infoPopup delete
+	(self infoPopup) ifNotNil: [self infoPopup delete. self infoPopup: nil]
