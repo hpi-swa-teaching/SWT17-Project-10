@@ -1,5 +1,5 @@
 yAxis-selection
-yAxis: t1 setSelected: t2 
+yAxis: anIndex setSelected: aValue 
 
-	self yAxisSelection at: t1 put: t2.
-	self changed: #yAxisSelection
+	self yAxisSelection at: anIndex put: aValue;
+	changed: #yAxisSelection

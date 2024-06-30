@@ -1,4 +1,4 @@
 yAxis-selection
-setYAxis: t1
+setYAxis: aCollection
  
-	yAxis := t1
+	yAxis := aCollection

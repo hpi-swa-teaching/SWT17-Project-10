@@ -1,4 +1,4 @@
 yAxis-selection
-isYAxisSelected: t1 
+isYAxisSelected: anIndex 
 
-	^ self yAxisSelection at: t1
+	^ self yAxisSelection at: anIndex

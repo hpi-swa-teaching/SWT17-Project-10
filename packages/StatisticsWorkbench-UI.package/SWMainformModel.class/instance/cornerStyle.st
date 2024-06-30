@@ -1,6 +1,6 @@
 building
 cornerStyle
 	
-	(MenuMorph roundedMenuCorners = false)
+	MenuMorph roundedMenuCorners = false
 		ifTrue: [^ #menuButton]
 		ifFalse: [^ #nil]
