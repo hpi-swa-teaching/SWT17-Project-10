@@ -1,5 +1,4 @@
 testing
 testEasyData
 
-	self executeXYTest: self class createEasyData.
-	self executePlotTest: self class createEasyData
+	self executeTest: self class createEasyData

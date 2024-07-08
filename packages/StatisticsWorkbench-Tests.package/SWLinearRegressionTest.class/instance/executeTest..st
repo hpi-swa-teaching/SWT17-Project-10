@@ -1,5 +1,5 @@
 testing
-executeXYTest: aTestValuesDictionary
+executeTest: aTestValuesDictionary
 
 	| correctSlope correctIntersect exampleLinearRegression |
 	

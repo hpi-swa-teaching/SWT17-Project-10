@@ -6,7 +6,7 @@ fromNamedColumns: aDictionary xValues: aString yValues: aString2
 	xValues := (aDictionary at: aString) collect: [:each | each asInteger].
 	yValues := (aDictionary at: aString2) collect: [:each | each asInteger].
 		
-	data := self fromXValues: xValues versusYValues: yValues withLabels: (aDictionary at: #Label).
+	data := self fromXValues: xValues versusYValues: yValues withLabels: (aDictionary at: #Labels).
 	
 	data enrichWith: aDictionary.
 

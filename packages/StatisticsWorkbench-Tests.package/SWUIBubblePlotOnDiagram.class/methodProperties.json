@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bubblePlot" : " Nils Urban 6/23/2024 23:24",
+		"bubblePlot:" : " Nils Urban 6/23/2024 23:24",
+		"setUp" : " Nils Urban 6/23/2024 23:31",
+		"testChangeBubbleColor" : " Nils Urban 6/23/2024 23:47",
+		"testRemoveBubbleOnUserInputInWindow" : " Nils Urban 6/23/2024 23:43",
+		"testXYPopupOnHover" : " Nils Urban 6/23/2024 23:46" } }

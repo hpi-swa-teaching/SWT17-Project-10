@@ -1,12 +1,9 @@
 testing
 testRescaleAfterRemoving
 
-	| xScaleBefore xScaleAfter vector|
+	| xScaleBefore xScaleAfter |
 	
-	vector := SWVector fromArray: #(3 1).
-	vector labelName: 'four'.
 	xScaleBefore := self diagram coordinateSystem xAxis maximum.
-	self barChart data remove: vector.
-	self barChart update.
+	self barChart data removeArray: #(3 0).
 	xScaleAfter := self diagram coordinateSystem xAxis maximum.
 	self assert: (xScaleBefore ~= xScaleAfter)

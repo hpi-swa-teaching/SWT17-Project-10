@@ -4,7 +4,7 @@ testCSVImport
 	| seededData csvStream labeledData |
 	
 	seededData := SWDataStub createSeeded4.
-	csvStream := SWCSVStub csvStreamLabeledData. 
+	csvStream := SWCSVStub csvStreamLabeledDataCommaSeparated. 
 	labeledData := SWDataLabeled fromCSVStream: csvStream.
 	labeledData setAllDimensionNames: #('Time' 'Value').
 	

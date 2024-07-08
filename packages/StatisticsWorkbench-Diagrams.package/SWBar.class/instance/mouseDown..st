@@ -7,4 +7,6 @@ mouseDown: anEvent
 			owner originalData at: self datapointIndex put: (SWVector fromPoint: ((owner originalData at: self datapointIndex) x) @ 0).
 			owner diagram redrawChangedData.
 			].
+	(anEvent redButtonPressed)
+		ifTrue: [self switchColor].
 	anEvent hand waitForClicksOrDrag: self event: anEvent

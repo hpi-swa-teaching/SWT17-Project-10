@@ -4,9 +4,8 @@
 		"createHardData" : "sjs 8/4/2020 15:42",
 		"createMediumData" : "sjs 8/4/2020 15:42" },
 	"instance" : {
-		"executePlotTest:" : "JB 6/23/2024 14:42",
-		"executeXYTest:" : "JB 6/23/2024 14:42",
-		"testEasyData" : "JB 6/23/2024 14:42",
-		"testHardData" : "JB 6/23/2024 14:42",
-		"testMediumData" : "JB 6/23/2024 14:43",
+		"executeTest:" : "sjs 8/4/2020 15:41",
+		"testEasyData" : "sjs 8/4/2020 15:44",
+		"testHardData" : "sjs 8/4/2020 15:44",
+		"testMediumData" : "sjs 8/4/2020 15:43",
 		"tolerance" : "ds 6/19/2020 20:31" } }

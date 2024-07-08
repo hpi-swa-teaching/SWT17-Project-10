@@ -7,8 +7,6 @@
 	"commentStamp" : "aj 6/21/2018 10:35",
 	"instvars" : [
 		"captionColor",
-		"hasBottomCaption",
-		"captionString",
 		"barLabelMorph",
 		"bottomLabelMorph",
 		"bottom",

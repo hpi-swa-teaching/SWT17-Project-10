@@ -10,5 +10,5 @@
 	"name" : "SWAxisRange",
 	"pools" : [
 		 ],
-	"super" : "LimitedPrecisionInterval",
+	"super" : "Interval",
 	"type" : "normal" }

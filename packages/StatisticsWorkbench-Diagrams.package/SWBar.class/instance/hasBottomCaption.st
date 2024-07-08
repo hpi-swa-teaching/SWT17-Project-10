@@ -1,4 +1,0 @@
-defaults
-hasBottomCaption
-
-	^ hasBottomCaption
