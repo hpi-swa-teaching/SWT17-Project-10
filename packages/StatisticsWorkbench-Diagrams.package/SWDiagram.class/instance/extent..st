@@ -1,6 +1,5 @@
 geometry
 extent: aPoint
-
 	|width labelHeight barCharts|
 	width := 0.
 	labelHeight := 0.

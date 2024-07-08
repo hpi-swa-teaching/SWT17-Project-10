@@ -1,6 +1,6 @@
 accessing
 caption: aString
-
+	
 	self barLabelMorph: TextMorph new.
 	self barLabelMorph center: self barLabelMorph center + self defaultLabelOffset.
 	

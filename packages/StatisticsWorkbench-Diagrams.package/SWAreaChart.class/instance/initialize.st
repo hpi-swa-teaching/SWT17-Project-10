@@ -1,8 +1,9 @@
 as yet unclassified
 initialize 
-	counter := 0.
+
 	super initialize.
-	self 
+	self
+		lineMorph: self createLineMorph;
 		lineColor: self class defaultColor;
 		dataPoints: OrderedCollection new;
 		dataSuffix: ''

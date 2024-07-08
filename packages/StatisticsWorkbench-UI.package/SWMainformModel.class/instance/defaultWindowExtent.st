@@ -1,4 +1,4 @@
 default-values
 defaultWindowExtent
 
-	^ 510@330
+	^ 510 @ 330

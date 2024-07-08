@@ -2,7 +2,6 @@ event-handling
 visualizeCharts
 
 	| diagram chartType diagramCollection |
-	
 	diagramCollection := OrderedCollection new.
 	self chartsToVisualize
 		do: [:each |
@@ -12,4 +11,5 @@ visualizeCharts
 				visualizeAll: (self processInputDataFor: chartType) with: chartType;
 				applyColorTheme: (self selectedTheme) new.
 			diagramCollection add: diagram].
+
 	^ diagramCollection

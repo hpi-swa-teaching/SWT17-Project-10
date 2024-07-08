@@ -2,7 +2,6 @@ building
 buildTextWith: aBuilder withAxis: aNumber
     
 	| windowContent layoutPosition |
-    
 	windowContent := layoutPosition := nil.
     	aNumber caseOf: {
 		[1] -> [windowContent := #buildXAxisLabel.
@@ -17,6 +16,7 @@ buildTextWith: aBuilder withAxis: aNumber
         	windowContent := #buildXAxisLabel.
         	layoutPosition := 0.3 @ 0.53 corner: 1 @ 0.15
     	].
+
 	^ aBuilder pluggablePanelSpec new 
         	model: self;
         	children: windowContent;
