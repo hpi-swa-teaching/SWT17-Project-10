@@ -2,7 +2,6 @@ yAxis-selection
 removeYAxisValues
 	
 	| tempCollection index |
-	
 	yAxisSelection isEmpty
 	ifTrue: [self inform: 'Error: Please add some yAxis values before!'];
 	ifFalse: [

@@ -4,7 +4,7 @@ csvStreamLabeledData
 	| lines csvString |
 	
 	lines :={
-		'X;Y;Labels' .
+		'X;Y;Label' .
 		'0;1;one' .
 		'1;1;two' .
 		'2;3;three' .

@@ -11,7 +11,6 @@ parseCSVData
 	    	
 	    	csvReader := SWCSVReader newWith: delimiter first asCharacter and: escapeCharacter first asCharacter.
 		namedColumns := csvReader getNamedColumns: self stream.
-		self parsedFile: self stream name.
 	
 		"Convert Label values to a single string and set named columns if Label key exists"
 	    	(namedColumns includesKey: #Label) ifTrue: [

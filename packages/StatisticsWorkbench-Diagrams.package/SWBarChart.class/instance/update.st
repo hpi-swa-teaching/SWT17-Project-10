@@ -3,5 +3,6 @@ update
 	
 	self applyTheme: self diagram colorTheme.
 	self diagram updateCoordinateSystem.
-	self removeAll;
+	self
+		removeAll;
 		createBarsFrom: self data

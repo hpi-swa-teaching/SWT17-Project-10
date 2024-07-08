@@ -1,16 +1,15 @@
+<p align="center"><img width="200" height="200" src="https://github.com/hpi-swa-teaching/StatisticsWorkbench/blob/745c8d8d15afdd32273f4cc16a225b2b77bbdb9c/sw_logo.png?raw=true" alt="StatisticsWorkbench-Logo"></p>
 
-# Statistics Workbench
+<h1 align="center" style=font-size:170px>StatisticsWorkbench</h1>
 
-dev: 
-[![CI](https://github.com/hpi-swa-teaching/StatisticsWorkbench/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/hpi-swa-teaching/StatisticsWorkbench/actions/workflows/ci.yml)
-[![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
+[![Commit](https://img.shields.io/github/last-commit/hpi-swa-teaching/StatisticsWorkbench?style=flat)](https://github.com/hpi-swa-teaching/StatisticsWorkbenchStatisticsWorkbench/commits/)
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/StatisticsWorkbench/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/StatisticsWorkbench?branch=dev)
-
-(SWT21-Project-16)
+[![CI](https://github.com/hpi-swa-teaching/StatisticsWorkbench/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/hpi-swa-teaching/StatisticsWorkbench/actions/workflows/ci.yml)
 
 Statistics Workbench is a tool for the visualization and analyzation of data.
 It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal deviation and more of a dataset, as well as multiple chart types, like barcharts and piecharts.
 There are multiple ways of creating datasets from different inputs outlined below.
+
 
 ## Overview & Getting Started
 
@@ -155,35 +154,40 @@ You can also interact with the diagram, for example by right-clicking on data po
 - Normalized BarChart
 - Normalized AreaChart
 
-Here is an example of how to create a stacked chart for multiple y-axes:
+Here are two examples of how to create stacked and normalized charts for multiple y-axes:
 ```smalltalk
-(SWDiagram new stacked: true;
+(SWDiagram new 
+    stacked: true;
+    visualizeAll: dataCollection with: SWBarChart) openInWindowLabeled: ''
+```
+```smalltalk
+(SWDiagram new 
+    stacked: true;
+    normalized: true;
     visualizeAll: dataCollection with: SWBarChart) openInWindowLabeled: ''
 ```
 Here "dataCollection" is of type OrderedCollection with elemets from SWDataLabeled or SWDataUnlabeled.
 
-## The Statistic Workbench UI
-Another way of accesing the StatisticsWorkBench tool is the brand new user interface. This can be opened by calling
 
+**Charts that suppot 3-dimensional data:**
+- BubblePlot
+
+Here is an examples of how to create a bubbleplot for 3-dimensional data:
 ```smalltalk
-SWMainformModel open.
+| data |
+data := SWDataUnlabeled fromXValues: {1 . 2 . 3 . 4 . 5} versusYValues: {5 . 200 . 38 . 69 . 16} versusZValues: {17 . 14 . 5 . 8 . 3}.
+(SWDiagram new visualize: data with: SWBubblePlot) openInWindowLabeled: ''
 ```
-**Features:**
- - Import CSV
- - Export Charts as PNG
- - Edit X, Y axis and columns in the editor
- - Choose different themes for your charts
- - View all types of charts without writing commands
+It is also possible to visualize more than one data series within a BubblePlot by using the method ```SWDiagram new visualizeAll: dataCollection with: SWBubblePlot```.
 
-### Difference between Single and Multiple Y-Axes
 
-The statistics workbench is not just designed for charts with a single x and y-axis. You can add multiple y-axes using the editor or by importing them via CSV. All imported y-axis values will show up in the multiple text selector on the right side of the UI. You can also display multiple charts at the same time for the current x- and y-axes values by selecting different chart types.
-
-If you want to remove or edit y-axis values, simply select the desired rows and click the corresponding button to make the changes.
-
-#### Important Note:
-If you only have one y-axis value in your UI field, you can visualize all charts. However, if you have multiple y-axis values, you can't visualize the pieChart and will get an error message because this chart type is not designed to have more y-axes. All other charts will be stacked as you would expect with additional y-axes.
-lot: (scatterPlot charts first) plotOn: scatterPlot).
+## Linear Regression
+It is also possible to perform **Linear Regression** on a ScatterPlot.
+ ```smalltalk
+| data scatterPlot |
+data := SWDataUnlabeled fromXValues: {1 . 2 . 3 . 4 . 5} versusYValues: {22 . 110 . 64 . 211 . 35}.
+scatterPlot := SWDiagram new visualize: data with: SWScatterPlot.
+(SWLinearRegression newFromScatterPlot: (scatterPlot charts first) plotOn: scatterPlot).
 scatterPlot openInWindowLabeled: ''
 ```
 

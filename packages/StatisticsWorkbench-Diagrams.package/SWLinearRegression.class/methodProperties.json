@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"newFrom:" : "ds 6/19/2020 20:08",
 		"newFromScatterPlot:" : "ds 6/19/2020 20:08",
-		"newFromScatterPlot:plotOn:" : "ds 6/19/2020 20:08",
+		"newFromScatterPlot:plotOn:" : "JB 6/23/2024 14:45",
 		"newFromXValues:andYValues:" : "ds 6/19/2020 20:08" },
 	"instance" : {
 		"calculateCorrelationFromXValues:andYValues:" : "ds 6/19/2020 20:05",

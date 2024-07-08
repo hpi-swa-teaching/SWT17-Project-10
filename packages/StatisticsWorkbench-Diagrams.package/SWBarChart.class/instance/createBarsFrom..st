@@ -13,10 +13,8 @@ createBarsFrom: aSWData
 						vector: vector;
 						color: self barColor;
 						bottom: self barBottom;
+						hasBottomCaption: self hasBottomCaption;
 						captionColor: self barLabelColor;
 						yourself).
-		((self data at: index) y = 0) 
-			ifFalse: [(self diagram stacked) 
-				ifTrue: [bar caption: vector labelName.]
-				ifFalse: [bar bottomCaption: vector labelName.]].
+		((self data at: index) y = 0) ifFalse: ["bar caption: vector labelName." bar caption: vector labelName].
 		self add: bar]

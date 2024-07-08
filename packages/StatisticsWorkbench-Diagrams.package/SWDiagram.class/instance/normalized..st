@@ -1,4 +1,4 @@
 adding/removing
 normalized: aBool
 
-	normalized := aBool
+	normalized:= aBool

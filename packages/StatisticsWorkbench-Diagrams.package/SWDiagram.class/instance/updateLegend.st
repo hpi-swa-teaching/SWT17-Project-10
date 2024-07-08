@@ -5,4 +5,5 @@ updateLegend
 	self legend key topRight: self topRight.
 	self removeLegend.
 	(self hasChart) ifTrue: [
-		self legend drawKeyFor: self collectKeyData]
+		self legend drawKeyFor: self collectKeyData
+	]

@@ -7,8 +7,7 @@
 	"commentStamp" : "JB 6/21/2018 10:10",
 	"instvars" : [
 		"vector",
-		"datapointIndex",
-		"previousColor" ],
+		"datapointIndex" ],
 	"name" : "SWChartElement",
 	"pools" : [
 		 ],

@@ -1,12 +1,10 @@
 geometry
 extent: aPoint
-
 	|width labelHeight barCharts|
 	width := 0.
 	labelHeight := 0.
-	barCharts := self charts select: [:aChart | aChart class = SWBarChart].
-	(barCharts size > 0) ifTrue: [
-		labelHeight := (barCharts collect: [:aChart | aChart maxBottomCaptionHeight]) max].
+	barCharts := (self charts select: [:aChart | aChart class = SWBarChart]).
+	(barCharts isEmpty) ifFalse: [labelHeight := (barCharts collect: [:aChart | aChart maxBottomCaptionHeight]) max.].
 	self submorphsDo: [:each | each class = SWKey ifTrue: [width := each submorphs last extent x]].
 	super extent: aPoint.
 	self resizeCharts.

@@ -2,7 +2,6 @@ event-handling
 processInputDataFor: aDiagramType
 
 	| swdata parsedLabels parsedXData dataCollection |
-	
 	dataCollection := OrderedCollection new.
 	parsedLabels :=  self splitStringAndConvertToStrings: self namedColumns.
 	parsedXData := self splitStringAndConvertToNumbers: self xAxis.

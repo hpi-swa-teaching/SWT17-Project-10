@@ -1,4 +1,4 @@
 accessing
 sliderValueMorph
 
-	^ sliderValueMorph
+	^sliderValueMorph
