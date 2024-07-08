@@ -1,4 +1,4 @@
 adding/removing
 normalized
 
-	^normalized
+	^ normalized

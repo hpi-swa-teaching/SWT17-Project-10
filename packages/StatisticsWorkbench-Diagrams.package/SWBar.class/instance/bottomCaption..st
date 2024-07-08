@@ -1,13 +1,17 @@
 accessing
 bottomCaption: aString
 
-	| bottomTextMorph |
+	| bottomTextMorph labelMorph |
 		
 	bottomTextMorph := TextMorph new.
-	bottomTextMorph contents: aString.
-	bottomTextMorph color: self captionColor.
-	self bottomLabelMorph: TransformationMorph new.
-	self bottomLabelMorph addMorph: bottomTextMorph.
-	self bottomLabelMorph angle: (0.25 * (Float pi)).
-	self bottomLabelMorph topRight: self bottomCenter.
-	self addMorph: self bottomLabelMorph.
+	bottomTextMorph
+		contents: aString;
+		color: self captionColor.
+	labelMorph :=  TransformationMorph new.
+	labelMorph
+		addMorph: bottomTextMorph;
+		angle: (0.25 * (Float pi));
+		topRight: self bottomCenter.
+	self
+		addMorph: labelMorph;
+		bottomLabelMorph: labelMorph

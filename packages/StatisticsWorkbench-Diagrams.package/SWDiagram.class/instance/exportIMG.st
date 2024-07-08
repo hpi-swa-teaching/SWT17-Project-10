@@ -10,5 +10,4 @@ exportIMG
 		[PNGReadWriter putForm: (self imageForm) onFileNamed: filePath] on: Error do: [:error |
 			self exportButton show.
 			error pass].
-		self exportButton show.
-	]
+		self exportButton show.]

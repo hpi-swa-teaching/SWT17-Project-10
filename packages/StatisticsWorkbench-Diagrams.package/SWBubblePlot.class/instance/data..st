@@ -5,5 +5,6 @@ data: dataSet
 	data := dataSet.
 	data addDependent: self.
 	self threshold: (data maximum: #z).
-	self update;
+	self
+		update;
 		changed: self

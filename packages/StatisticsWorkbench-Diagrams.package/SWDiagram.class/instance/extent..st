@@ -1,5 +1,6 @@
 geometry
 extent: aPoint
+
 	|width labelHeight|
 	width := 0.
 	labelHeight := 0.

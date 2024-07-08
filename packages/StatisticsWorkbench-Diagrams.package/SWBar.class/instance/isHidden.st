@@ -1,4 +1,4 @@
 geometry
 isHidden
 
-	^isHidden
+	^ isHidden
