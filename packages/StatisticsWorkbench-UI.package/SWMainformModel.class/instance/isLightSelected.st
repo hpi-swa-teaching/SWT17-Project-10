@@ -1,4 +1,4 @@
 theme-selection
 isLightSelected
 
-        ^ selectedTheme = SWDefaultTheme
+	^ selectedTheme = SWDefaultTheme

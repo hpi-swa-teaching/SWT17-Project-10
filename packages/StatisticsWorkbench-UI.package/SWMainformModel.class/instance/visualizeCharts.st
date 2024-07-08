@@ -12,5 +12,4 @@ visualizeCharts
 				visualizeAll: (self processInputDataFor: chartType) with: chartType;
 				applyColorTheme: (self selectedTheme) new.
 			diagramCollection add: diagram].
-		
 	^ diagramCollection

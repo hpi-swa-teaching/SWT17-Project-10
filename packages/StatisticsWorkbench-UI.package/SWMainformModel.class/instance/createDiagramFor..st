@@ -2,6 +2,7 @@ event-handling
 createDiagramFor: aChartString
 
 	| diagram |
+	
 	diagram := SWDiagram new.
 	aChartString caseOf: {
 		['BarChart'] -> [diagram stacked: true].
@@ -9,7 +10,6 @@ createDiagramFor: aChartString
 		['Normalized BarChart'] -> [diagram stacked: true; normalized: true].
 		['Normalized AreaChart'] -> [diagram stacked: true; normalized: true].
     } otherwise: [].
-
 	^ diagram
 
 
