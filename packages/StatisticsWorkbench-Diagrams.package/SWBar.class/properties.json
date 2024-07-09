@@ -9,11 +9,9 @@
 		"captionColor",
 		"barLabelMorph",
 		"bottomLabelMorph",
-		"bottom",
 		"isLabelHorizontal",
 		"rotationMorph",
-		"infoPopup",
-		"isHidden" ],
+		"infoPopup" ],
 	"name" : "SWBar",
 	"pools" : [
 		 ],

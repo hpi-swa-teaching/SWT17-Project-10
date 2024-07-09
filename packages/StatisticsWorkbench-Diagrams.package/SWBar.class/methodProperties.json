@@ -5,8 +5,6 @@
 	"instance" : {
 		"barLabelMorph" : "ds 6/19/2020 19:12",
 		"barLabelMorph:" : "ds 6/19/2020 19:12",
-		"bottom" : "ds 6/19/2020 19:12",
-		"bottom:" : "ds 6/19/2020 19:12",
 		"bottomCaption:" : " Nils Urban 7/8/2024 22:30",
 		"bottomCaptionHeight" : " Nils Urban 6/21/2024 16:59",
 		"bottomLabelMorph" : " Nils Urban 6/21/2024 16:36",
@@ -21,8 +19,6 @@
 		"infoPopup" : " Nils Urban 7/9/2024 10:23",
 		"infoPopup:" : " Nils Urban 7/9/2024 10:23",
 		"initialize" : " Nils Urban 7/8/2024 23:32",
-		"isHidden" : " Nils Urban 7/8/2024 22:34",
-		"isHidden:" : "Nils Urban 6/13/2024 01:18",
 		"isLabelHorizontal" : "ds 6/19/2020 19:13",
 		"isLabelHorizontal:" : "ds 6/19/2020 19:13",
 		"isLabelTooLong" : "ds 6/19/2020 19:38",
@@ -36,5 +32,4 @@
 		"rotatedLabelOffset" : "ds 6/19/2020 19:39",
 		"rotatedLabelPosition" : "Nils Urban 6/14/2024 15:48",
 		"rotationMorph" : "ds 6/19/2020 19:39",
-		"rotationMorph:" : "ds 6/19/2020 19:39",
-		"topCaption:" : "Nils Urban 6/23/2024 12:53" } }
+		"rotationMorph:" : "ds 6/19/2020 19:39" } }

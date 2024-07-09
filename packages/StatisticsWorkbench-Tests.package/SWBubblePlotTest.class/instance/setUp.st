@@ -9,4 +9,3 @@ setUp
 		data: SWDataStub createSeededXYZ;
 		diagram: (diagram visualizeAll: self data with: SWBubblePlot);
 		bubblePlot: (self diagram charts) first.
-	self diagram addSlider.

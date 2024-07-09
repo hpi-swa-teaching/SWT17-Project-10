@@ -12,7 +12,6 @@ createBarsFrom: aSWData
 						height: height;
 						vector: vector;
 						color: self barColor;
-						bottom: self barBottom;
 						captionColor: self barLabelColor;
 						yourself).
 		((self data at: index) y = 0) 

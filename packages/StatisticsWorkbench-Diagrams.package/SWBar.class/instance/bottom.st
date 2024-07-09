@@ -1,4 +1,0 @@
-geometry
-bottom
-
-	^ bottom
