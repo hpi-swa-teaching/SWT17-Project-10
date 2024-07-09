@@ -2,7 +2,6 @@ testing
 testCopyFrom
 
 	| copy |
-	
 	copy := SWDataUnlabeled new.
 	copy copyFrom: self data.
 	

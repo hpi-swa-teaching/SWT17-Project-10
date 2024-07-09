@@ -2,7 +2,6 @@ testing
 testSetInvalidStepInterval
 
 	| axis |
-	
 	axis := SWAxis create.
 	
 	self should: [axis stepInterval: nil] raise: SWInvalidArgumentError.

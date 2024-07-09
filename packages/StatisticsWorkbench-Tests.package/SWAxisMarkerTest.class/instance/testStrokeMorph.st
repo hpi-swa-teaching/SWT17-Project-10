@@ -2,11 +2,9 @@ testing
 testStrokeMorph
 
 	| axisLine |
-	
 	axisLine := SWAxisMarker create.
 	
 	self assert: axisLine strokeMorph notNil.
-	
 	self assert: 10 equals: axisLine strokeMorph totalLength.
 	
 	axisLine strokeColor: Color red.

@@ -2,7 +2,6 @@ testing
 testAsStringWithoutLabels
 
 	| comparisonData |
-	
 	comparisonData := SWDataStub createSeeded3.
 
 	self assert: (comparisonData asString = 'Time|Value

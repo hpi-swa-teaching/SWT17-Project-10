@@ -2,9 +2,7 @@ testing
 testFromDataPointCollections
 
 	| labeledData seededLabeledData unlabeledData seededUnlabeledData  |
-	
 	seededLabeledData := SWDataStub createSeeded4.
-	
 	labeledData := #((0 1 'one') #(1 1 'two') #(2 3 'three') #(3 1 'four')).
 	labeledData := SWDataLabeled fromDataPointCollections: labeledData.
 	labeledData setAllDimensionNames: #('Time' 'Value').
@@ -16,4 +14,3 @@ testFromDataPointCollections
 	unlabeledData := SWDataUnlabeled fromDataPointCollections: unlabeledData.
 	
 	self assert: unlabeledData equals: seededUnlabeledData
-	

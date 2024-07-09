@@ -2,7 +2,6 @@ adding/removing
 enrichWith: aDictionary 
 
 	| columnName columnValues |
-	
 	(aDictionary
 		collect: [:each | each size])
 		do: [:columnSize | columnSize = self size

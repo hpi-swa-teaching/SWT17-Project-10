@@ -2,7 +2,6 @@ testing
 testAddMany
 
 	| extraData |
-	
 	extraData := OrderedCollection new.
 	extraData add: (SWVector fromArray: #(5 5)).
 	extraData add: #(15 20).

@@ -2,7 +2,6 @@ testing
 testRemoveRandom
 	
 	| initialSize |
-	
 	initialSize := self data size.
 	
 	self assert: [self lineChart lineMorph vertices size = initialSize].

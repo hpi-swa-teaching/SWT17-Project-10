@@ -13,12 +13,11 @@
 		"testBarCount" : "sjs 6/11/2020 15:51",
 		"testBarGraphImplementsCreate" : "sjs 6/11/2020 15:52",
 		"testBarWidth" : "sjs 8/4/2020 15:50",
-		"testChangeLabelPosition" : " Nils Urban 7/8/2024 22:54",
 		"testCollectionsGetInitialized" : "sjs 6/11/2020 15:51",
-		"testDifferentColors" : "JB 6/8/2024 19:39",
+		"testDifferentColors" : "JB 7/9/2024 13:58",
 		"testIsInvisible" : "sjs 6/11/2020 15:51",
-		"testLabelPosition" : " Nils Urban 7/9/2024 09:54",
-		"testRemove" : "Nils Urban 6/23/2024 12:24",
+		"testLabelPosition" : "JB 7/9/2024 13:59",
+		"testRemove" : "JB 7/9/2024 13:59",
 		"testRemoveAll" : "sjs 6/11/2020 15:51",
-		"testRemoveBarFromData" : "Nils Urban 6/23/2024 12:19",
-		"testRescaleAfterRemoving" : "Nils Urban 6/23/2024 12:20" } }
+		"testRemoveBarFromData" : "JB 7/9/2024 13:59",
+		"testRescaleAfterRemoving" : "JB 7/9/2024 13:59" } }

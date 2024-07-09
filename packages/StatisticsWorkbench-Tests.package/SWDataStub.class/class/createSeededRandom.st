@@ -2,11 +2,9 @@ helper
 createSeededRandom
 	
 	| data maximum minimum point pointCount |
-	
 	pointCount := 7.
 	minimum := -60.
 	maximum := 100.
-	
 	data := SWDataUnlabeled create.
 	
 	(1 to: pointCount) do: [:i | point := Array new: 2.

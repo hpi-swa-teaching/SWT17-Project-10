@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"bubblePlot" : " Nils Urban 7/8/2024 23:16",
-		"bubblePlot:" : " Nils Urban 7/8/2024 23:16",
-		"setUp" : " Nils Urban 7/8/2024 23:17",
-		"testChangeBubbleColor" : " Nils Urban 7/8/2024 23:18",
-		"testRemoveBubbleOnUserInputinWindow" : " Nils Urban 7/8/2024 23:19",
-		"testXYPopupOnHover" : " Nils Urban 7/8/2024 23:14" } }
+		"bubblePlot" : "Nils Urban 7/8/2024 23:16",
+		"bubblePlot:" : "Nils Urban 7/8/2024 23:16",
+		"setUp" : "Nils Urban 7/8/2024 23:17",
+		"testChangeBubbleColor" : "JB 7/9/2024 14:26",
+		"testRemoveBubbleOnUserInputinWindow" : "JB 7/9/2024 14:26",
+		"testXYPopupOnHover" : "JB 7/9/2024 14:26" } }

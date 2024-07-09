@@ -2,7 +2,6 @@ adjusting
 adjustVerticalStepInterval
 
 	| newStepInterval  |
-	
 	newStepInterval := self stepInterval.
 	(self markerDistance < self class defaultMinMarkerDistance)
 		ifTrue: [newStepInterval := (self valueRange *  self class defaultMinMarkerDistance / (self length max: 1)) ceiling].

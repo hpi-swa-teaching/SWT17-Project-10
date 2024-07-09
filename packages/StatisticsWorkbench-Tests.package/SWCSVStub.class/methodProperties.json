@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"csvStreamLabeledData" : "JB 6/21/2024 13:19",
-		"csvStreamLabeledDataCommaSeparated" : "PAR 8/6/2021 13:09",
-		"csvStreamLabeledDataMultipleY" : "JB 6/21/2024 14:57",
-		"csvStreamLabeledDataWhitespaceSeparated" : "PAR 8/6/2021 13:09",
-		"csvStreamUnlabeledData" : "PAR 8/6/2021 12:38",
-		"csvStreamWithWhitespaceDelimeter" : "PAR 8/6/2021 12:35",
+		"csvStreamLabeledData" : "JB 7/9/2024 14:00",
+		"csvStreamLabeledDataCommaSeparated" : "JB 7/9/2024 14:00",
+		"csvStreamLabeledDataMultipleY" : "JB 7/9/2024 14:00",
+		"csvStreamLabeledDataWhitespaceSeparated" : "JB 7/9/2024 14:00",
+		"csvStreamUnlabeledData" : "JB 7/9/2024 14:00",
+		"csvStreamWithWhitespaceDelimeter" : "JB 7/9/2024 14:01",
 		"emptyCSVStream" : "PAR 8/6/2021 12:45" },
 	"instance" : {
 		 } }

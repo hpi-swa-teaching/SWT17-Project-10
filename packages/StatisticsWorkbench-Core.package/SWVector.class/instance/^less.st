@@ -10,7 +10,6 @@ comparing
 			(self at: index) > (anotherSWVector at: index)
 				ifTrue: [^ false].
 			(self at: index) < (anotherSWVector at: index)
-				ifTrue: [^ true]
-	].
+				ifTrue: [^ true]].
 
 	^ false

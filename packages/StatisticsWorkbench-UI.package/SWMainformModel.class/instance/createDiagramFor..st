@@ -11,5 +11,3 @@ createDiagramFor: aChartString
     } otherwise: [].
 
 	^ diagram
-
-

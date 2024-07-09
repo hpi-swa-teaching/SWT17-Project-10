@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"newWith:and:" : "PAR 8/6/2021 11:21" },
+		"newWith:and:" : "JB 7/9/2024 13:44" },
 	"instance" : {
-		"defaultDelimiter" : "RW 6/20/2024 00:37",
-		"defaultEscapeCharacter" : "PAR 6/27/2021 16:45",
-		"delimiter" : "CK 5/19/2021 13:04",
-		"delimiter:" : "CK 5/19/2021 13:04",
-		"escapeCharacter" : "CK 5/19/2021 13:04",
-		"escapeCharacter:" : "CK 5/19/2021 13:04",
-		"getNamedColumns:" : "PAR 8/6/2021 11:22",
+		"defaultDelimiter" : "JB 7/9/2024 13:33",
+		"defaultEscapeCharacter" : "JB 7/9/2024 13:33",
+		"delimiter" : "JB 7/9/2024 13:33",
+		"delimiter:" : "JB 7/9/2024 13:33",
+		"escapeCharacter" : "JB 7/9/2024 13:33",
+		"escapeCharacter:" : "JB 7/9/2024 13:33",
+		"getNamedColumns:" : "JB 7/9/2024 13:37",
 		"initialize" : "PAR 6/27/2021 16:44",
-		"namedColumnsFromMatrix:" : "PAR 8/6/2021 11:40",
-		"readAllLines:" : "PAR 8/6/2021 11:40",
-		"tokenize:delimeter:escapeWith:" : "PAR 8/6/2021 11:40" } }
+		"namedColumnsFromMatrix:" : "JB 7/9/2024 13:34",
+		"readAllLines:" : "JB 7/9/2024 13:35",
+		"tokenize:delimeter:escapeWith:" : "JB 7/9/2024 13:36" } }

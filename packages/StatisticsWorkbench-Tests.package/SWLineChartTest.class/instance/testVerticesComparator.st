@@ -2,7 +2,6 @@ testing
 testVerticesComparator
 
 	| before expected |
-	
 	before := OrderedCollection new 
 					add: (0 @ 0); 
 					add: (5 @ 0); 

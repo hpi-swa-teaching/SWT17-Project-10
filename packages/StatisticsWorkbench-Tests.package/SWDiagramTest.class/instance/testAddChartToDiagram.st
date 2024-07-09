@@ -2,7 +2,6 @@ testing
 testAddChartToDiagram
 
 	| chartCountBeforeInsert |	
-		
 	chartCountBeforeInsert := self diagramLineChart charts size.
 	self diagramLineChart add: SWScatterPlot create.
 	

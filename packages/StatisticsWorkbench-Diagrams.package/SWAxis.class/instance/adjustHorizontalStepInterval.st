@@ -2,7 +2,6 @@ adjusting
 adjustHorizontalStepInterval
 
 	| newStepInterval maxLabelSize |
-	
 	newStepInterval := self stepInterval.
 	maxLabelSize := self maxLabelSize.
 	(self markerDistance < (maxLabelSize * self class defaultMinMarkerDistancePerSymbol))

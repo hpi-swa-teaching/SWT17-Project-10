@@ -2,9 +2,7 @@ accessing
 asString
 
 	| outputString |
-	
 	outputString := ''.
-	
 	self dimensionNames do: [:each | 
 		outputString := outputString, each, '|'].
 	outputString := outputString allButLast, Character cr.

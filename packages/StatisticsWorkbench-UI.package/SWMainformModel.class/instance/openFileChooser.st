@@ -6,4 +6,5 @@ openFileChooser
 	fc initializeAsDialogBox.
 	fileStream := fc open.
 	self stream: fileStream.
-	(self stream) ifNotNil: [self parseCSVData]
+	(self stream)
+		ifNotNil: [self parseCSVData]

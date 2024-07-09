@@ -1,7 +1,7 @@
 testing
 testHash
+
 	| vector1 vector2 |
-	
 	vector1 := SWVector create: #(0 123 456).
 	vector2 := SWVector create: #(0 123 456).
 	vector1 labelName: 'testingHashing'.

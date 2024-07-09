@@ -2,7 +2,6 @@ testing
 testSetInvalidMaxOrMin
 
 	| axis |
-	
 	axis := SWAxis create.
 	
 	axis minimum: 0.

@@ -2,7 +2,6 @@ testing
 testCaptionMorph
 
 	| axisLine |
-	
 	axisLine := SWAxisMarker create.
 	axisLine caption: 'test'.
 	self assert: axisLine captionMorph text equals: 'test'.

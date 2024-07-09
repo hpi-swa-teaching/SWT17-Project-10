@@ -2,7 +2,6 @@ testing
 testColoredData
 	
 	| coloredData coloredData2 |
-	
 	coloredData := SWDataStub createSeededRandom.
 	coloredData dataColor: (Color r: 1.0 g: 102/255 b: 1.0).
 	

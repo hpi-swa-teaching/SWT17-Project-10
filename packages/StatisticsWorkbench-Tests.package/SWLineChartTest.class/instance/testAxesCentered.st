@@ -2,7 +2,6 @@ testing
 testAxesCentered
 
 	| center slackX slackY offsetX offsetY |
-	
 	slackX := 5/100 * self diagram width.
 	slackY := 5/100 * self diagram height.
 	

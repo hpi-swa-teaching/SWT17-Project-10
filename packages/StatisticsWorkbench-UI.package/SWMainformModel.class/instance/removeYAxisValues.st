@@ -8,7 +8,7 @@ removeYAxisValues
 		index := 1.
 		tempCollection := OrderedCollection new.
 		yAxisSelection do: [ :element | element ifFalse: [tempCollection add: (self yAxis at: index)]. 
-			index := index +1].
+		index := index + 1].
 		
 	self setYAxis: tempCollection;
 	yAxisSelection: self defaultYAxisSelection;

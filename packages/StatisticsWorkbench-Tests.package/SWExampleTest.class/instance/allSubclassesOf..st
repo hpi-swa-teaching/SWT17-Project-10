@@ -1,4 +1,4 @@
 as yet unclassified
 allSubclassesOf: aClass
 
-        ^ aClass allSubclasses select: [ :each | each isAbstract not ]
+        ^ aClass allSubclasses select: [:each | each isAbstract not]

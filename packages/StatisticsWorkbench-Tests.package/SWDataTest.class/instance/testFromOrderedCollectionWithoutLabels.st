@@ -2,10 +2,8 @@ testing
 testFromOrderedCollectionWithoutLabels
 
 	| seededData expectedData |
-	
 	seededData := SWDataStub createSeeded3.
 	expectedData := SWDataUnlabeled fromXValues: {0 . 1 . 2 . 3} versusYValues: {1 . 1 . 3 . 1}.
-	
 	expectedData setAllDimensionNames: #('Time' 'Value').
 	
 	self assert: expectedData equals: seededData.

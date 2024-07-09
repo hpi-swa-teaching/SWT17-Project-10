@@ -2,7 +2,6 @@ as yet unclassified
 testSum
 
 	| summedValues |
-	
 	summedValues := (Array new: 5) collect: [:a | 0].
 	
 	self assert: ((self diagram charts at: 3) data collect: [:vector | vector y]) equals: #(3 2 3 2 3) asOrderedCollection.

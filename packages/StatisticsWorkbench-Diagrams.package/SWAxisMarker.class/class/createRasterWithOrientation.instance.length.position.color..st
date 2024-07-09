@@ -15,4 +15,4 @@ createRasterWithOrientation: anOrientation instance: instance length: aLength po
 	instance
 		rasterMorph: morph;
 		rasterColor: aColor;
-		addMorph: instance rasterMorph behind: instance strokeMorph.
+		addMorph: instance rasterMorph behind: instance strokeMorph

@@ -10,4 +10,4 @@ testLabelPosition
 	self diagram: (self diagram visualize: SWDataStub createSeeded5 and: SWDataStub createSeeded6 with: SWBarChart and: SWBarChart).
 	self assert: (self diagram charts first bars first bottomLabelMorph isNil).
 	self assert: (self diagram charts first bars first barLabelMorph notNil).
-	self diagram stacked: false.
+	self diagram stacked: false

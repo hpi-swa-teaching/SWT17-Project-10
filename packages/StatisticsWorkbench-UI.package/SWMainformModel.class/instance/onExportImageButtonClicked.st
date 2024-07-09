@@ -1,7 +1,7 @@
 event-handling
 onExportImageButtonClicked
 
-	self chartsToVisualize isEmpty
+	(self chartsToVisualize isEmpty)
 		ifTrue: [self inform: 'Error: Please select some charts to visualize.']
 		ifFalse: [
 			(self yAxis size > 1  & (self chartsToVisualize includes: 'PieChart'))

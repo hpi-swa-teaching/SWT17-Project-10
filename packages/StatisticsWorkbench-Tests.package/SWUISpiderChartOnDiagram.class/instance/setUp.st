@@ -7,4 +7,5 @@ setUp
 		data: SWDataStub createSeededMultiDimensional;
 		diagram: (SWDiagram new visualize: self data with: SWSpiderChart);
 		spiderChart: (self diagram charts) first.
+
 	self diagram applyColorTheme: SWDarkTheme new

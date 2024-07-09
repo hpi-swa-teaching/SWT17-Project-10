@@ -2,7 +2,6 @@ creation
 createMarkerAtIndex: aIndex
 
 	| markerOrientation shortenedNumber | 
-			
 	(self orientation = #horizontal)
 		ifTrue: [markerOrientation := #vertical]
 		ifFalse: [markerOrientation := #horizontal].

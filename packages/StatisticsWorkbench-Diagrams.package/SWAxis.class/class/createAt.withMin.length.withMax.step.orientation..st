@@ -2,7 +2,6 @@ instance creation
 createAt: startPoint withMin: min length: length withMax: max step: step orientation: orientation
 
 	| endPoint vertices |
-	
 	(orientation = #horizontal)
 		ifTrue: [endPoint := startPoint + (length @ 0)]
 		ifFalse: [endPoint := startPoint + (0 @ (length negated))].

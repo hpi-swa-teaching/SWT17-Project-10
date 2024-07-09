@@ -2,7 +2,6 @@ testing
 testEquality
 
 	| data1 data2 data3 |
-	
 	data1 := self data.
 	data2 := self data copy.
 	data2 add: #(5 5).

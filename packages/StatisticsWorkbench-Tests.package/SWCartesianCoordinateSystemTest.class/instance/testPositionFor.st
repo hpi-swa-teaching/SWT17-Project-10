@@ -2,7 +2,6 @@ testing
 testPositionFor
 
 	| point1 point2 |
-	
 	point1 := (0 @ 0).
 	point2 := (100 @ 100).
 	"This update of max values is normally done automatically, by the updateCoordinateSystem function of SWDiagram, when the dataset is set or changed."

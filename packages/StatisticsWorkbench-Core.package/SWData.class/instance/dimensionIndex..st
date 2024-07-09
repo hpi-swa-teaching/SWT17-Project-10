@@ -2,7 +2,6 @@ accessing
 dimensionIndex: aDimension
 
 	| index |
-
 	(aDimension isSymbol)
 		ifTrue: [index := self indexOfAxis: aDimension]
 		ifFalse: [index := aDimension].

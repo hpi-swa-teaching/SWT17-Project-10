@@ -2,7 +2,8 @@ updating
 updateMarkers
 		
 	self areMarkersDrawable
-		ifTrue: [self
-					adjustStepInterval;
-					removeAllMarkers;
-					drawMarkers]
+		ifTrue: [
+			self
+				adjustStepInterval;
+				removeAllMarkers;
+				drawMarkers]

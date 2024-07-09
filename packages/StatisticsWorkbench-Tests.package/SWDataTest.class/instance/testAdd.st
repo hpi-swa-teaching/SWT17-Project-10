@@ -2,7 +2,6 @@ testing
 testAdd
 
 	| newVector |
-	
 	newVector := SWVector fromArray: #(5 5).
 	self data add: newVector.
 	

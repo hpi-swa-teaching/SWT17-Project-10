@@ -2,7 +2,6 @@ accessing
 asString 
 
 	| outputString |
-	
 	outputString := ''.
 	
 	self dimensionNames do: [:each | 

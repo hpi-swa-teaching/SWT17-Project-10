@@ -2,7 +2,6 @@ testing
 testSetAxisColor
 
 	| axis color |
-	
 	axis := SWAxis create.
 	color := Color wheel: 2.
 	

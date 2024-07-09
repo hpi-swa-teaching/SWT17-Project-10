@@ -1,3 +1,4 @@
 accessing
 clickOffset
-	^ (0 @ -30)
+
+	^ 0 @ -30

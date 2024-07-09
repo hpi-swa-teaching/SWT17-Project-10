@@ -1,4 +1,0 @@
-testing
-testChangeLabelPosition
-
-	"DELETE THIS"

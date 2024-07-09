@@ -2,7 +2,6 @@ testing
 testShortenNumbers
 
 	| expected inputs |
- 
 	inputs := Array
 		with: 999
 		with: 1234

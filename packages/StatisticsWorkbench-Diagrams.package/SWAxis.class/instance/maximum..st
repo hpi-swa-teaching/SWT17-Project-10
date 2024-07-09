@@ -6,5 +6,6 @@ maximum: aValue
 
 	(self minimum notNil and: [aValue <= self minimum])
 		ifTrue: [SWInvalidArgumentError signal: 'Maximum must be larger than minimum.']
-		ifFalse: [maximum := aValue.
-				self update]
+		ifFalse: [
+			maximum := aValue.
+			self update]

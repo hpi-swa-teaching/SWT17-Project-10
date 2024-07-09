@@ -11,5 +11,3 @@ getClassForChart: aChartString
 		['Normalized BarChart'] -> [^ SWBarChart].
 		['Normalized AreaChart'] -> [^ SWAreaChart].
     } otherwise: [^ SWBarChart].
-
-
