@@ -1,5 +1,5 @@
 updating
 update: anObject
 
-	anObject class superclass = SWData
+	(anObject class superclass = SWData)
 		ifTrue: [self update]

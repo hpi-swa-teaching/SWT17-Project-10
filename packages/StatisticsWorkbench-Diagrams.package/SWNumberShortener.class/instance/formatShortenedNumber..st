@@ -2,7 +2,6 @@ formatting
 formatShortenedNumber: aNumber
 
 	| abbreviation digitCount fractionalPart integerPart numberString powerOfTen |
-	
 	numberString := aNumber asInteger printString.
 	digitCount := self digitCount: aNumber.
 	abbreviation := self abbreviationForNumber: aNumber.

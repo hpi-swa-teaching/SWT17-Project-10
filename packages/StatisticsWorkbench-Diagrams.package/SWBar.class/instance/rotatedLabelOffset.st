@@ -1,4 +1,4 @@
 defaults
 rotatedLabelOffset
 
-	^ (5 @ 55)
+	^ 5 @ 55

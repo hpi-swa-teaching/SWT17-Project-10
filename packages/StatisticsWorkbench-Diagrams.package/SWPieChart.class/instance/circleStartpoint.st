@@ -1,4 +1,4 @@
 geometry
 circleStartpoint
 	
-	^ (self center x @ (self center y - self radius))
+	^ self center x @ (self center y - self radius)

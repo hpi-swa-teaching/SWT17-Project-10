@@ -2,7 +2,6 @@ as yet unclassified
 drawColorSwatchOf: aColor at: aPositionFactor
 
 	| colorSwatch |
-	
 	colorSwatch := RectangleMorph new.
 	
 	self addColorSwatch: colorSwatch.

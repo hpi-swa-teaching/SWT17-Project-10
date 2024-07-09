@@ -2,7 +2,6 @@ instance creation
 createAt: startPoint xMin: xMin xMax: xMax xStep: xStep xLength: xLength yMin: yMin yMax: yMax yStep: yStep yLength: yLength boundsThreshold: boundsThreshold
 
 	| xAxis yAxis |
-	
 	xAxis := SWAxis createAt: startPoint withMin: xMin length: xLength withMax: xMax step: xStep orientation: #horizontal.
 	yAxis := SWAxis createAt: startPoint withMin: yMin length: yLength withMax: yMax step: yStep orientation: #vertical.
 	

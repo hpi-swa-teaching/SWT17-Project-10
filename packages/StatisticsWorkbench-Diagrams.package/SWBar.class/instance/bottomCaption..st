@@ -2,7 +2,6 @@ accessing
 bottomCaption: aString
 
 	| bottomTextMorph labelMorph |
-		
 	bottomTextMorph := TextMorph new.
 	bottomTextMorph
 		contents: aString;

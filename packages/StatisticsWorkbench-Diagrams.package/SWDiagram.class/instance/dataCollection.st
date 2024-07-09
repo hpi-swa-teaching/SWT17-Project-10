@@ -1,4 +1,4 @@
 accessing
 dataCollection
 
-	^dataCollection
+	^ dataCollection

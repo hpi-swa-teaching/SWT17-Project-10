@@ -2,10 +2,9 @@ visualization
 showMean
 
 	| meanValue meanData |
-
 	(self charts first supportsShowMean) 
 		ifFalse: [Exception signal: 'This chart does not support showMean functionality.'].
-	
+		
 	meanValue := self charts first data meanY.
 	meanData := SWDataUnlabeled create.
 	

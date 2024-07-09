@@ -2,5 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self initializeSpiderNet;
+	self
+		initializeSpiderNet;
 		dimensions: self class defaultDimensions

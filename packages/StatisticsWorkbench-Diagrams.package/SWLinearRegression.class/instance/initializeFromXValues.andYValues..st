@@ -2,7 +2,6 @@ initialization
 initializeFromXValues: xValues andYValues: yValues
 	
 	| lowerX higherX |
-	
 	self slope: (self calculateSlopeFromXValues: xValues andYValues: yValues).
 	self intersect: (self calculateIntersectFromXValues: xValues andYValues: yValues).
 

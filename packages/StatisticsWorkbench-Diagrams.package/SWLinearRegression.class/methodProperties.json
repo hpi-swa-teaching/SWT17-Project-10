@@ -1,17 +1,17 @@
 {
 	"class" : {
-		"newFromScatterPlot:" : "ds 6/19/2020 20:08",
-		"newFromScatterPlot:plotOn:" : "JB 6/23/2024 14:45",
-		"newFromXValues:andYValues:" : "ds 6/19/2020 20:08" },
+		"newFromScatterPlot:" : "JB 7/9/2024 15:47",
+		"newFromScatterPlot:plotOn:" : "JB 7/9/2024 15:47",
+		"newFromXValues:andYValues:" : "JB 7/9/2024 15:47" },
 	"instance" : {
-		"calculateCorrelationFromXValues:andYValues:" : "ds 6/19/2020 20:05",
+		"calculateCorrelationFromXValues:andYValues:" : "JB 7/9/2024 16:11",
 		"calculateIntersectFromXValues:andYValues:" : "ds 6/19/2020 20:05",
 		"calculateMean:" : "ds 6/19/2020 20:05",
 		"calculateSlopeFromXValues:andYValues:" : "ds 6/19/2020 20:06",
-		"calculateStandardDeviation:" : "FM 4/30/2021 14:34",
+		"calculateStandardDeviation:" : "JB 7/9/2024 16:11",
 		"data" : "sjs 6/10/2020 09:16",
 		"initialize" : "sjs 5/11/2020 17:29",
-		"initializeFromXValues:andYValues:" : "ds 6/19/2020 20:07",
+		"initializeFromXValues:andYValues:" : "JB 7/9/2024 16:12",
 		"intersect" : "ds 6/19/2020 20:07",
 		"intersect:" : "ds 6/19/2020 20:07",
 		"newFrom:" : "Nils Urban 7/8/2024 23:21",

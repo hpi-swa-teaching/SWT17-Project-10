@@ -2,7 +2,6 @@ accessing
 rangeForDimension: aDimension
 
 	| range globalMax globalMin |
-
 	(self diagram charts)
 		ifEmpty: [^ SWAxisRange from: SWAxis defaultMin to: SWAxis defaultMax].
 	

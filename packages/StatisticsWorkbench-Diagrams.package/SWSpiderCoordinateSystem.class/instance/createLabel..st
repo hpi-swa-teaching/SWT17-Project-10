@@ -1,8 +1,7 @@
 instance creation
 createLabel: aString
 
-	| textMorph  |
-
+	| textMorph |
 	textMorph := TextMorph new contents: aString;
 					wrapFlag: true;
 					color: self colorTheme spiderChartAxisTextColor;
@@ -10,6 +9,3 @@ createLabel: aString
 	self spiderNet addMorph: textMorph.
 	
 	^ textMorph
-	
-
-	

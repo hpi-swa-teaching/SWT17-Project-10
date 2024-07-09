@@ -2,7 +2,6 @@ visualization
 drawGraph
 	
 	| polygonMorph |
-	
 	self createVertices do: [:vertices | 
 		polygonMorph := PolygonMorph new.
 		polygonMorph vertices: vertices

@@ -2,14 +2,14 @@
 	"class" : {
 		"create" : "Nils Urban 6/13/2024 10:24" },
 	"instance" : {
-		"createDataPoint:" : "JB 6/19/2024 21:45",
+		"createDataPoint:" : "JB 7/9/2024 15:55",
 		"data:" : "Nils Urban 7/8/2024 22:38",
 		"diagram:" : "Nils Urban 6/21/2024 15:20",
 		"dynamicMaxBubbleSize" : "Nils Urban 6/21/2024 14:48",
-		"initialize" : "Nils Urban 6/21/2024 15:11",
+		"initialize" : "JB 7/9/2024 15:57",
 		"maxValuesPerData" : "Nils Urban 7/8/2024 22:38",
 		"maxValuesPerData:" : "Nils Urban 6/21/2024 14:48",
 		"receiveValue:" : "Nils Urban 7/8/2024 22:38",
-		"scaledBubbleSize:" : "Nils Urban 6/21/2024 15:23",
+		"scaledBubbleSize:" : "JB 7/9/2024 15:57",
 		"threshold" : "Nils Urban 7/8/2024 22:38",
 		"threshold:" : "Nils Urban 6/13/2024 11:20" } }

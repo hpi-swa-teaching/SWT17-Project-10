@@ -1,7 +1,7 @@
 instance creation
 create
+
 	|coordinateSystem|
-	
 	coordinateSystem := SWCartesianCoordinateSystem createAt: self defaultStartPoint 
 									xMin: self defaultMin 
 									xMax: self defaultMax 

@@ -11,5 +11,5 @@ positionPopupSafely: aPopup
 	(aPopup topLeft x < (owner position x + 60))
 		ifTrue: [
 			(clippingOnTop)
-				ifTrue: [aPopup topLeft: self bottomCenter.]
+				ifTrue: [aPopup topLeft: self bottomCenter]
 				ifFalse: [aPopup bottomLeft: self topCenter]]

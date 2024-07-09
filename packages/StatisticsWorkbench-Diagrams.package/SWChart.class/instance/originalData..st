@@ -4,5 +4,6 @@ originalData: aSWDataCollection
 	originalData removeDependent: self.
 	originalData := aSWDataCollection.
 	originalData addDependent: self.
-	self update;
+	self
+		update;
 		changed: self

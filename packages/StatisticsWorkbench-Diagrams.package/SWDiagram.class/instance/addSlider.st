@@ -1,8 +1,7 @@
 accessing
 addSlider
 
-	| sliderMorph valueMorph|
-	
+	| sliderMorph valueMorph|	
 	sliderMorph := SimpleSliderMorph new.
 	valueMorph := TextMorph new.
 	self addMorph: sliderMorph.
@@ -19,6 +18,7 @@ addSlider
 		sliderValueMorph: valueMorph;
 		sliderMorph: sliderMorph;
 		sendToCharts: sliderMorph getNumericValue.
+		
 	sliderMorph
 		target: self;
 		actionSelector: #sendToCharts:;

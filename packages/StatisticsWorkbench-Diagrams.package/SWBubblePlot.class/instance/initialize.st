@@ -2,7 +2,8 @@ as yet unclassified
 initialize
 
 	super initialize.
-	self threshold: 0.
-	self pointColor: self class defaultColor.
-	self dataPoints: OrderedCollection new.
-	self maxValuesPerData: 1
+	self
+		threshold: 0;
+		pointColor: self class defaultColor;
+		dataPoints: OrderedCollection new;
+		maxValuesPerData: 1

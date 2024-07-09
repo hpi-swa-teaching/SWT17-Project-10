@@ -2,7 +2,6 @@ updating
 updateRanges
 	
 	| rangeX rangeY |
-		
 	rangeX := self rangeForDimension: #x.
 	rangeY := self rangeForDimension: #y.
 	

@@ -1,5 +1,5 @@
 defaults
 defaultWorldPosition
 
-	^ (self defaultRadius @ self defaultRadius + 100)
+	^ self defaultRadius @ self defaultRadius + 100
 

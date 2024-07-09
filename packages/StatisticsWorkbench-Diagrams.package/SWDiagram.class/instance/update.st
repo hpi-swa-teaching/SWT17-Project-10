@@ -5,6 +5,5 @@ update
 
 	(self hasCoordinateSystem)
 		ifTrue: [self coordinateSystem update].
-	
 	(self hasLegend)
 		ifTrue: [self updateLegend]

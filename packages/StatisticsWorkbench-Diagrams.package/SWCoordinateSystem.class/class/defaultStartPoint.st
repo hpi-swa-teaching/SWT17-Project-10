@@ -1,4 +1,4 @@
 defaults
 defaultStartPoint
 
-	^ (100 @ 600)
+	^ 100 @ 600

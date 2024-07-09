@@ -2,7 +2,8 @@ updating
 update
 
 	self center: self diagram center.
-	self updateDimensions;
+	self
+		updateDimensions;
 		resetSpiderNet;
 		drawSpiderNet;
 		updateDimensionLabels

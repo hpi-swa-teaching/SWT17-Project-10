@@ -2,7 +2,6 @@ as yet unclassified
 drawKeyPointOf: aString at: aPositionFactor
 	
 	| keyPoint |
-	
 	keyPoint := TextMorph new.
 	keyPoint color: self textColor.
 	

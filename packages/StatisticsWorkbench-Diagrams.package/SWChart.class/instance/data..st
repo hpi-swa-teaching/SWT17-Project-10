@@ -4,5 +4,6 @@ data: dataSet
 	data removeDependent: self.
 	data := dataSet.
 	data addDependent: self.
-	self update;
+	self
+		update;
 		changed: self
