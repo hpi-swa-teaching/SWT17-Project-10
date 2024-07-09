@@ -1,4 +1,0 @@
-accessing
-hasBottomCaption
-
-	"DELETE THIS"
