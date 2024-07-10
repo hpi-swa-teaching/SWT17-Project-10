@@ -8,5 +8,6 @@ drawGraph
 					     color: self graphColor 
 					     borderWidth: self class defaultGraphBorderWidth 
 					     borderColor: self graphBorderColor.
-		self addMorph: polygonMorph;
+		self
+			addMorph: polygonMorph;
 			graph: polygonMorph]

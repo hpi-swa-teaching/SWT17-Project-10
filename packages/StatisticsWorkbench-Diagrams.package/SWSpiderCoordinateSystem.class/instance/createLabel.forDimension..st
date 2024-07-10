@@ -5,6 +5,7 @@ createLabel: aString forDimension: aNumber
 	degrees := (self degreesFromDimension: aNumber) asInteger.
 	textMorph := self createLabel: aString.
 	
-	self placeLabel: textMorph by: degrees on: aNumber;
+	self
+		placeLabel: textMorph by: degrees on: aNumber;
 		adjust: textMorph to: self diagram;
 		placeLabel: textMorph by: degrees on: aNumber

@@ -4,7 +4,9 @@ updatePieSlices
 	| position wheelColors|
 	position := 1.
 	wheelColors := Color wheel: self data size.
-	diagram submorphsDo: [:each | each class = SWKey ifTrue: [keyWidth := each submorphs last extent x]].
+	self diagram submorphsDo: [:each |
+		(each class = SWKey)
+			ifTrue: [keyWidth := each submorphs last extent x]].
 	self
 		removeAllPieSlices;
 		radius: self dynamicRadius;

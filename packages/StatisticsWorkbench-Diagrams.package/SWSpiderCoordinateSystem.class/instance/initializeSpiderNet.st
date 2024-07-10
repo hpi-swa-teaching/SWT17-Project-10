@@ -1,9 +1,9 @@
 initialization
 initializeSpiderNet
 
+	| morph |
+	morph := Morph new.
+	morph color: Color transparent.
 	
-	self
-		spiderNet:(Morph new
-		color: Color transparent;
-		yourself).
+	self spiderNet: morph.
 	self addMorph: self spiderNet
