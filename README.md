@@ -98,10 +98,10 @@ data setAllDimensionNames: #('City' 'PopulationInThousands').
 Afterwards you can visualize it using Line-/Bar-/Pie-Charts or Scatterplots:
 
 ```smalltalk
-graph := SWDiagram new visualize: data with: SWBarChart create.
-graph := SWDiagram new visualize: data with: SWLineChart create.
-graph := SWDiagram new visualize: data with: SWPieChart create.
-graph := SWDiagram new visualize: data with: SWScatterPlot create.
+graph := SWDiagram new visualize: data with: SWBarChart.
+graph := SWDiagram new visualize: data with: SWLineChart.
+graph := SWDiagram new visualize: data with: SWPieChart.
+graph := SWDiagram new visualize: data with: SWScatterPlot.
 ```
 
 Finally you can open your chart in a window - that can also be labelled - by typing
