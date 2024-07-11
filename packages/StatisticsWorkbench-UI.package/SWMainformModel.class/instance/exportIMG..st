@@ -9,5 +9,5 @@ exportIMG: aDiagram
 		window := aDiagram openInWindowLabeled: ''.
 		aDiagram exportButton hide.
 		[PNGReadWriter putForm: (aDiagram imageForm) onFileNamed: filePath] on: Error do: [:error |
-			error pass]].
-	window delete
+			error pass].
+		window delete]
