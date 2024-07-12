@@ -1,7 +1,7 @@
 visualization
-createLegend
+insertLegend
 
-	| key|
+	| key |
 	key := SWKey create. 			
 	self legend: key.
 	self legend topLeft: self topRight.
